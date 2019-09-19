@@ -1,0 +1,28 @@
+state={
+	id=925
+	name="STATE_925"
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+
+		}
+		add_core_of = USA
+		add_core_of = CAL
+		victory_points = {
+			9713 1 
+		}
+		
+
+	}
+
+	provinces={
+		710 766 9697 9713 11698 
+	}
+	manpower=1000534
+	buildings_max_level_factor=1.000
+	state_category=town
+}

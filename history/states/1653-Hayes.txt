@@ -1,0 +1,22 @@
+state={
+	id=1653
+	name="STATE_1653"
+	
+	history={
+		owner = PAR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = BOL
+
+	}
+	
+	provinces={
+		2195 10973 13523
+	}
+	
+	manpower=194812
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

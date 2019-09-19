@@ -1,0 +1,23 @@
+state={
+	id=1512
+	name="STATE_1512"
+	
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ANG
+		add_core_of = BSL
+
+	}
+	
+	provinces={
+		4735 
+	}
+	
+	manpower=89199
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

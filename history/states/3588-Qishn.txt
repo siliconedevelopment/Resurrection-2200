@@ -1,0 +1,21 @@
+state={
+	id=3588
+	name="STATE_3588"
+
+	history={
+		owner = ADN
+		buildings = {
+			infrastructure = 1
+			
+		}
+		add_core_of = ADN
+		add_core_of = YEM
+	}
+
+	provinces={
+		14562 
+	}
+	manpower = 1000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

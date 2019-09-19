@@ -1,0 +1,39 @@
+
+state={
+	id=797
+	name="STATE_797"
+
+	history={
+		owner = ROM
+		victory_points = {
+			9635 3 
+		}
+		buildings = {
+			infrastructure = 6
+			
+			687 = {
+				naval_base = 1
+
+			}
+			9635 = {
+				naval_base = 8
+
+			}
+			dockyard = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = ROM
+		add_core_of = WLC
+		add_core_of = THR
+		add_core_of = DOB
+
+	}
+
+	provinces={
+		687 3076 
+	}
+	manpower=811100
+	buildings_max_level_factor=1.000
+	state_category=city
+}

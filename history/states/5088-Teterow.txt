@@ -1,0 +1,21 @@
+state={
+	id=5088
+	name="STATE_5088"
+	provinces={
+		11276 
+	}
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = GER
+		add_core_of = MCK
+		
+
+	}
+	manpower=1000
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

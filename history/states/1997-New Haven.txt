@@ -1,0 +1,23 @@
+state={
+	id=1997
+	name="STATE_1997"
+	
+	state_category=rural
+	
+	history = {
+		owner = USA
+		add_core_of = USA
+		add_core_of = NEG
+		add_core_of = CON
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		6909 
+	}
+	manpower=4560121
+
+	buildings_max_level_factor=1.000
+}

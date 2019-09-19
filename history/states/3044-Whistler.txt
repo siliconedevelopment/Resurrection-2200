@@ -1,0 +1,20 @@
+state={
+	id=3044
+	name="STATE_3044"
+	history={
+		
+		owner = CAN 
+		add_core_of = CAN
+		add_core_of = BRC
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		1323 1408 1858 4413 4870 10228 10258 10273 10548 14258 14259 
+	}
+	manpower=1000 
+ state_category=pastoral
+	buildings_max_level_factor=1.000
+}

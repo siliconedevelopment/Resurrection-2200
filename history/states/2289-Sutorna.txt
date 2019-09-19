@@ -1,0 +1,27 @@
+state={
+	id=2289
+	name="STATE_2289"
+	provinces={
+		3868
+	}
+	manpower=123992
+	
+	state_category = town
+	
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+
+		}
+		add_core_of = YUG
+		add_core_of = MNT
+		add_core_of = RAG
+		add_core_of = DLM
+		add_core_of = BOS
+		add_core_of = CRO
+	
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=3403
+	name="STATE_3403"
+	provinces={
+		14438 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		set_demilitarized_zone = yes
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

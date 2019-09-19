@@ -1,0 +1,21 @@
+state={
+	id=3292
+	name="STATE_3292"
+	provinces={
+		1943 4973 10911 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = TUG
+		add_core_of = TUG
+		add_core_of = PRC
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

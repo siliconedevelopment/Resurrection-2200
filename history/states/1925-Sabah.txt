@@ -1,0 +1,23 @@
+state={
+	id=1925
+	name="STATE_1925"
+	
+	history={
+		owner = NBO
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MAL
+		add_core_of = NBO
+		add_core_of = SRW
+
+	}
+
+	provinces={
+		1335 4338 10212 12171
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=403
+	name="STATE_403" # Tyumen
+	manpower = 939067
+	
+	state_category = rural
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = SBR
+		add_core_of = TYU
+	}
+
+	provinces={
+		1387 1880 4209 4754 4824 7846 9512 12521
+	}
+}

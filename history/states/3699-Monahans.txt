@@ -1,0 +1,21 @@
+state={
+	id=3699
+	name="STATE_3699"
+	provinces={
+		1998 4955 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = CSA
+		add_core_of = TEX
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

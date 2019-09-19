@@ -1,0 +1,20 @@
+state={
+	id=3722
+	name="STATE_3722"
+	provinces={
+		2007 10792 12729 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = COL
+		add_core_of = COL
+		add_core_of = AMZ
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

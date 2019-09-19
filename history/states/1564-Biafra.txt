@@ -1,0 +1,22 @@
+state={
+	id=1564
+	name="STATE_1564"
+	
+	history={
+		owner = NGA
+		add_core_of = NGA
+		add_core_of = BIA
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	
+	provinces={
+		8034 10831 
+	}
+	manpower=1623126
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

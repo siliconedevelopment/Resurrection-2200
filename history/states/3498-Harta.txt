@@ -1,0 +1,20 @@
+state={
+	id=3498
+	name="STATE_3498"
+	provinces={
+		6522 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = POL
+		add_core_of = GLC
+		add_core_of = POL
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

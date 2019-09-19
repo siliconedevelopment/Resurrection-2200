@@ -1,0 +1,19 @@
+state={
+	id=3220
+	name="STATE_3220"
+	history={
+		owner = ITA 
+		add_core_of = ITA
+		add_core_of = VCT
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		14315
+	}
+	manpower=1000
+	state_category = metropolis
+	buildings_max_level_factor=1.000
+}

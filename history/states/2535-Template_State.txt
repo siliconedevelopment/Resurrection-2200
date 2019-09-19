@@ -1,0 +1,19 @@
+state={
+	id=2535
+	name="STATE_2535"
+	history={
+		owner = AST 
+		add_core_of = QNS
+		add_core_of = AST
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		14017
+	}
+	manpower=1000 
+ state_category=small_island
+	buildings_max_level_factor=1.000
+}

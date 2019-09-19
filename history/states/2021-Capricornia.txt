@@ -1,0 +1,35 @@
+
+state={
+	id=2021
+	name="STATE_2021"
+	resources={
+		tungsten=24.000
+	}
+
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 1
+			7566 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = AST
+		add_core_of = QNS
+		victory_points = {
+			7566 1 
+		}
+
+	}
+
+	provinces={
+		2187 12382 7566 7538 12367 2166 1501 12354 7525 4520 10378 10365 4505 10350 7506 4648 10338 1644
+	}
+	manpower=714600
+	buildings_max_level_factor=1.000
+	state_category=town
+}

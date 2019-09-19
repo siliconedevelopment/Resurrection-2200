@@ -1,0 +1,24 @@
+state={
+	id=3274
+	name="STATE_3274"
+	
+	provinces={
+		14358 
+	}
+	
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = OMA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SAU
+		add_core_of = UAE
+		add_core_of = ABD
+		add_core_of = OMA
+	}
+	buildings_max_level_factor=1.000
+}

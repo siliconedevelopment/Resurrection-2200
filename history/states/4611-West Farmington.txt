@@ -1,0 +1,20 @@
+state={
+	id=4611
+	name="STATE_4611"
+	provinces={
+		10645 15465 15466 
+	}
+	history={
+		
+		owner = USA 
+		add_core_of = USA
+		add_core_of = NMX
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

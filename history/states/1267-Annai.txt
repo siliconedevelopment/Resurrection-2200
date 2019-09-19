@@ -1,0 +1,22 @@
+state={
+	id=1267
+	name="STATE_1267"
+	
+	history={
+		owner = GYA
+		add_core_of = GYA
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	
+	provinces={
+		13382 
+	}
+	
+	manpower=31288
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

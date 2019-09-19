@@ -1,0 +1,26 @@
+state={
+	id=1565
+	name="STATE_1565"
+	
+	history={
+		owner = NGA
+		add_core_of = NGA
+		buildings = {
+			infrastructure = 3
+			2050 = {
+				naval_base = 3
+
+			}
+		}
+		victory_points = {
+			2050 1 
+		}
+	}
+	
+	provinces={
+		2050 12731 
+	}
+	manpower=3720596
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

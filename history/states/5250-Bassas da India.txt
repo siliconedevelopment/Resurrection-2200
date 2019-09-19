@@ -1,0 +1,14 @@
+state={
+	id=5250
+	name="STATE_5250"
+	provinces={
+		15804 
+	}
+	history = {
+		owner = FRA
+		add_core_of = REU
+	}
+	manpower=1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=1831
+	name="STATE_1831"
+	manpower = 1
+	state_category = city
+	history={
+		owner = IRE
+		victory_points = {
+			11293 5 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			11293 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = IRE
+		add_core_of = LEI
+	}
+
+	provinces={
+		11293
+	}
+}

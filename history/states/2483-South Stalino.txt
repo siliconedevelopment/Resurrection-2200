@@ -1,0 +1,20 @@
+state={
+	id=2483
+	name="STATE_2483"
+	provinces={
+		6776 6420
+	}
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = NOV
+		
+	}
+	manpower=1000 
+ state_category=small_island
+	buildings_max_level_factor=1.000
+}

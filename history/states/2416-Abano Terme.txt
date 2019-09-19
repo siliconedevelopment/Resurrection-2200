@@ -1,0 +1,18 @@
+state={
+	id=2416
+	name="STATE_2416"
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = VNC
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		14659 
+	}
+	manpower=1000 
+ state_category=small_island
+	buildings_max_level_factor=1.000
+}

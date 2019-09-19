@@ -1,0 +1,18 @@
+state={
+	id=3959
+	name="STATE_3959"
+	history={
+		owner = UNC
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		14773
+	}
+	manpower = 1
+	state_category = wasteland
+	impassable = yes
+	buildings_max_level_factor=1.000
+}

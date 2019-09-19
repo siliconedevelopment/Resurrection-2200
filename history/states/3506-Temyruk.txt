@@ -1,0 +1,22 @@
+state={
+	id=3506
+	name="STATE_3506"
+	provinces={
+		6741 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = KUB
+		add_core_of = CSS
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

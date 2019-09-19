@@ -1,0 +1,22 @@
+state={
+	id=2005
+	name="STATE_2005"
+	
+	state_category=rural
+	
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = MNB
+		add_core_of = MET
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		4790 12145 
+	}
+	manpower=2102
+	buildings_max_level_factor=1.000
+}

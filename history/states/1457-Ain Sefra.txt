@@ -1,0 +1,23 @@
+
+state={
+	id=1457
+	name="STATE_1457"
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ALG
+
+	}
+
+	provinces={
+		1901 1958 8088 13410 
+	}
+	manpower=5233
+	impassable = yes
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

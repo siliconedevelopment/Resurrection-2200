@@ -1,0 +1,21 @@
+state={
+	id=3285
+	name="STATE_3285"
+	provinces={
+		4167 4295 7418 10144 2091
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = NEA
+		add_core_of = NEA
+		add_core_of = PRC
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

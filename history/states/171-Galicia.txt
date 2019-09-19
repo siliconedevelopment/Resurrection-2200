@@ -1,0 +1,30 @@
+
+state={
+	id=171
+	name="STATE_171"
+	manpower = 2295085
+	
+	state_category = city
+
+	history={
+		owner = SPR
+		victory_points = {
+			758 3 
+		}
+		buildings = {
+			infrastructure = 6
+			dockyard = 2
+			arms_factory = 1
+			air_base = 2
+			758 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = SPR
+		add_core_of = GAL
+	}
+
+	provinces={
+		758 11677 9689 11710 6955 11692 3761
+	}
+}

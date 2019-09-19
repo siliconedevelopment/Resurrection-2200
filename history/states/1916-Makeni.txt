@@ -1,0 +1,22 @@
+state={
+	id=1916
+	name="STATE_1916"
+	
+	state_category = pastoral
+	
+	history=
+	{
+		owner = SIE
+		add_core_of = SIE
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces={
+		13642 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

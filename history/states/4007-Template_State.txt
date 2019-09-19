@@ -1,0 +1,19 @@
+state={
+	id=4007
+	name="STATE_4007"
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = TMS
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	state_category = pastoral
+	provinces={
+		13759 13758
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

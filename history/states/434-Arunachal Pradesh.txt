@@ -1,0 +1,26 @@
+
+state={
+	id=434
+	name="STATE_434"
+	resources={
+		tungsten=49.000
+	}
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = ASM
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1116 10810 12730 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

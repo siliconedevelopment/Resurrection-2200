@@ -1,0 +1,20 @@
+state={
+	id=3585
+	name="STATE_3585"
+	provinces={
+		14617 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = ADN
+		add_core_of = ADN
+		add_core_of = YEM
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

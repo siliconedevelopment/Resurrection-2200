@@ -1,0 +1,20 @@
+state={
+	id=4995
+	name="STATE_4995"
+	provinces={
+		1897 10771 
+	}
+	history={
+		owner = FWA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MRT
+
+	}
+	manpower=1030
+	state_category=pastoral
+	impassable = yes
+	buildings_max_level_factor=1.000
+}

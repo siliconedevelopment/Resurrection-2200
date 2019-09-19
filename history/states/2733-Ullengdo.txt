@@ -1,0 +1,19 @@
+state={
+	id=2733
+	name="STATE_2733"
+	history={
+		
+		owner = JAP
+		buildings = {
+			infrastructure = 4
+			
+		}
+		add_core_of = KOR
+	}
+	provinces={
+		13286
+	}
+	manpower=1000 
+ state_category=small_island
+	buildings_max_level_factor=1.000
+}

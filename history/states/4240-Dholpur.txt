@@ -1,0 +1,20 @@
+state={
+	id=4240
+	name="STATE_4240"
+	provinces={
+		15008 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = DLP
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = DLP
+		add_core_of = RAJ
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=1989
+	name="STATE_1989"
+	
+	state_category=rural
+	
+	history = {
+		owner = USA
+		add_core_of = USA
+		add_core_of = KNT
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		10586 
+	}
+	manpower=103043
+	buildings_max_level_factor=1.000
+}

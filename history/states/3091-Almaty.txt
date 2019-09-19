@@ -1,0 +1,21 @@
+state={
+	id=3091
+	name="STATE_3091"
+	history={
+		
+		owner = SOV 
+		add_core_of = SOV
+		add_core_of = KYR
+		add_core_of = KOK
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		4224
+	}
+	manpower=1000 
+ state_category=pastoral
+	buildings_max_level_factor=1.000
+}

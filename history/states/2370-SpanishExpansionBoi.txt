@@ -1,0 +1,21 @@
+state={
+	id=2370
+	name="STATE_2370"
+
+	history={
+		owner = FEA
+		add_core_of = GAB
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		13230 13231 
+	}
+	manpower=10012
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

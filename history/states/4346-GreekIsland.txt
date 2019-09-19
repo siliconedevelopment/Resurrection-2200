@@ -1,0 +1,20 @@
+state={
+	id=4346
+	name="STATE_4346"
+	history={
+		owner = GRE
+		add_core_of = GRE
+		add_core_of = THR
+		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 2
+			
+		}
+	}
+	provinces={
+		15069
+	}
+	manpower=1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

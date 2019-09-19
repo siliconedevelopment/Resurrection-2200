@@ -1,0 +1,22 @@
+
+state={
+	id=1783
+	name="STATE_1783"
+	
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = KOR
+
+	}
+	
+	provinces={
+		13608 13617 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

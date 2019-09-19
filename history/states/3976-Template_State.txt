@@ -1,0 +1,18 @@
+state={
+	id=3976
+	name="STATE_3976"
+	history={
+		owner = FAL
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		14790
+	}
+	manpower = 1
+	state_category = wasteland
+	impassable = yes
+	buildings_max_level_factor=1.000
+}

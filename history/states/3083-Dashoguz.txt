@@ -1,0 +1,22 @@
+state={
+	id=3083
+	name="STATE_3083"
+	history={
+		
+		owner = SOV 
+		add_core_of = SOV
+		add_core_of = UZB
+		add_core_of = KPK
+		add_core_of = KHI
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		12324 12465 
+	}
+	manpower=1000 
+ state_category=pastoral
+	buildings_max_level_factor=1.000
+}

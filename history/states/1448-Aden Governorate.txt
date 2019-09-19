@@ -1,0 +1,22 @@
+state={
+	id=1448
+	name="STATE_1448"
+	
+	history={
+		owner = ADN
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = YEM
+		add_core_of = ADN
+
+	}
+	
+	provinces={
+		13448 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+}

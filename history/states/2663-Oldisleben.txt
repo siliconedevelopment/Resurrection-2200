@@ -1,0 +1,19 @@
+state={
+	id=2663
+	name="STATE_2663"
+	provinces={
+		14749
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = SWM
+		add_core_of = THU
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	manpower=1000 
+ state_category=small_island
+	buildings_max_level_factor=1.000
+}

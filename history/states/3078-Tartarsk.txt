@@ -1,0 +1,21 @@
+state={
+	id=3078
+	name="STATE_3078"
+	history={
+		
+		owner = SOV 
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = SBR
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		10696 12546 
+	}
+	manpower=1000 
+ state_category=pastoral
+	buildings_max_level_factor=1.000
+}

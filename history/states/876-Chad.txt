@@ -1,0 +1,25 @@
+
+state={
+	id=876
+	name="STATE_876"
+
+	history={
+		owner = FEA
+		victory_points = {
+			2081 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = CHA
+
+	}
+
+	provinces={
+		2081 9152 
+	}
+	manpower=200200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

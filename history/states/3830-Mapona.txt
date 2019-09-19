@@ -1,0 +1,19 @@
+state={
+	id=3830
+	name="STATE_3830"
+	provinces={
+		7305 7333 7378 10231 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = AST
+		add_core_of = PNG
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,20 @@
+state={
+	id=2886
+	name="STATE_2886"
+	history={
+		
+		owner = SPR 
+		add_core_of = SPR
+		add_core_of = ANL
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		747 1090 1176 4095 10063 10111 
+	}
+	manpower=1000 
+ state_category=pastoral
+	buildings_max_level_factor=1.000
+}

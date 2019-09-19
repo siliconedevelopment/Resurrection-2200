@@ -1,0 +1,18 @@
+state={
+	id=3994
+	name="STATE_3994"
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		14808
+	}
+	manpower = 1
+	state_category = wasteland
+	impassable = yes
+	buildings_max_level_factor=1.000
+}

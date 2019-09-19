@@ -1,0 +1,23 @@
+state={
+	id=3928
+	name="STATE_3928"
+	provinces={
+		14740 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 8
+
+		}
+		add_core_of = GER
+		add_core_of = SCH
+		add_core_of = OLD
+	
+	}
+	buildings_max_level_factor=1.000
+}

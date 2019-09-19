@@ -1,0 +1,20 @@
+state={
+	id=3604
+	name="STATE_3604"
+	provinces={
+		14547 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = NGA
+		add_core_of = NGA
+		add_core_of = BIA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

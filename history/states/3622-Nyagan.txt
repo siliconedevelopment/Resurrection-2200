@@ -1,0 +1,22 @@
+state={
+	id=3622
+	name="STATE_3622"
+	provinces={
+		1659 1812 4715 7867 10592 10620 12602 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = SOV
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = SBR
+		add_core_of = YML
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

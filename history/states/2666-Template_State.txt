@@ -1,0 +1,20 @@
+state={
+	id=2666
+	name="STATE_2666" # Kzyl Orda
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+		add_core_of = KAZ
+	}
+
+	provinces={
+		1312 4277 7392 10220 10268 10275 10277 10452 10508 12121 12177 12194 12487 14411 14410
+	}
+}

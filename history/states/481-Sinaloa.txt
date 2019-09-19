@@ -1,0 +1,31 @@
+
+state={
+	id=481
+	name="STATE_481"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			8057 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = MEX
+		add_core_of = SON
+
+	}
+
+	provinces={
+		4946 10871 10916 4898 10853
+	}
+	manpower=1255094
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

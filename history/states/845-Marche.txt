@@ -1,0 +1,32 @@
+
+state={
+	id=845
+	name="STATE_845"
+
+	history={
+		owner = ITA
+		victory_points = {
+			925 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			925 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = ITA
+		add_core_of = SPL
+		add_claim_by = VCT
+
+	}
+
+	provinces={
+		925 11790 13400
+	}
+	manpower=1604005
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=523
+	name="STATE_523"
+
+	history={
+		owner = AST
+		add_core_of = PNG
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			4329 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			4329 3 
+		}
+
+	}
+
+	provinces={
+		4289 4329 12135 
+	}
+	manpower=543000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

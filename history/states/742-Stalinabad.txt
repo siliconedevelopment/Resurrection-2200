@@ -1,0 +1,27 @@
+
+state={
+	id=742
+	name="STATE_742"
+
+	history={
+		owner = SOV
+		victory_points = {
+			12250 3 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = TAJ
+		add_core_of = BKH
+
+	}
+
+	provinces={
+		12250 4542
+	}
+	manpower=230000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

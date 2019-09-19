@@ -1,0 +1,22 @@
+state={
+	id=2143
+	name="STATE_2143"
+
+	state_category=rural
+	
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MOR
+
+	}
+
+	provinces={
+		1194 4097 10013 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+}

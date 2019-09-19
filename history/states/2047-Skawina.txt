@@ -1,0 +1,22 @@
+
+state={
+	id=2047
+	name="STATE_2047"
+	
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = POL
+		add_core_of = GLC
+	}
+	
+	provinces={
+		11413
+	}
+	manpower=470000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

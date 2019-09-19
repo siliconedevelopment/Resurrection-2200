@@ -1,0 +1,21 @@
+state={
+	id=1908
+	name="STATE_1908"
+	
+	state_category = metropolis
+	
+	history= {
+		owner = ENG
+		buildings = {
+			infrastructure = 8
+		}
+		add_core_of = ENG
+		add_core_of = EGL
+	}
+	
+	provinces={
+		6237 9315 11382 11345
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

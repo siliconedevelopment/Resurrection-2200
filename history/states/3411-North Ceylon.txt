@@ -1,0 +1,20 @@
+state={
+	id=3411
+	name="STATE_3411"
+	provinces={
+		10201 
+	}
+	
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = SRL
+		add_core_of = SRL
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

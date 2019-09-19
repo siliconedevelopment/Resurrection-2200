@@ -1,0 +1,32 @@
+
+state={
+	id=249
+	name="STATE_249"
+	resources={
+		steel=25.000
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+
+		}
+		victory_points = {
+			6338 1 
+		}
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = KZN
+		
+
+	}
+
+	provinces={
+		228 260 372 404 3251 3365 3394 6224 6338 9336 
+	}
+	manpower=2761291
+	buildings_max_level_factor=1.000
+	state_category=town
+}

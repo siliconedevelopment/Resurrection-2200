@@ -1,0 +1,34 @@
+
+state={
+	id=336
+	name="STATE_336"
+	resources={
+		rubber=342.000
+		steel=20.000
+		tungsten=189.000
+		aluminium=15.000
+	}
+
+	history={
+		owner = MAL
+		
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 6
+			
+			
+
+		}
+		add_core_of = MAL
+
+	}
+
+	provinces={
+		12271 
+	}
+	manpower=2131300
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

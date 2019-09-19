@@ -1,0 +1,21 @@
+state={
+	id=3069
+	name="STATE_3069"
+	history={
+		
+		owner = SIK 
+		add_core_of = SIK 
+ add_core_of = PRC 
+ add_core_of = CHI
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		12601 
+	}
+	manpower=1000 
+ state_category=pastoral
+	buildings_max_level_factor=1.000
+}

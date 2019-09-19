@@ -1,0 +1,21 @@
+state={
+	id=2102
+	name="STATE_2102"
+	
+	state_category=rural
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = BRA
+
+	}
+	provinces={
+		13664 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

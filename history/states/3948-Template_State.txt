@@ -1,0 +1,18 @@
+state={
+	id=3948
+	name="STATE_3948"
+	history={
+		owner = NZL
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		14762
+	}
+	manpower = 1
+	state_category = wasteland
+	impassable = yes
+	buildings_max_level_factor=1.000
+}

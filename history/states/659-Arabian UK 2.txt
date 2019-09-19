@@ -1,0 +1,24 @@
+
+state={
+	id=659
+	name="STATE_659"
+
+	history={
+		owner = ADN
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+
+		}
+		add_core_of = YEM
+		add_core_of = ADN
+
+	}
+
+	provinces={
+		2029 4976 12821
+	}
+	manpower=881203
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

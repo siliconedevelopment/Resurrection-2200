@@ -1,0 +1,31 @@
+state={
+	id=1478
+	name="STATE_1478"
+	
+	history={
+		owner = HPC
+		add_core_of = HPC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			air_base = 2
+			dockyard = 1
+			13496 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		13496 
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = city
+}

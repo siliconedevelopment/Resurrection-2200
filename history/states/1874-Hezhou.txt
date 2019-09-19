@@ -1,0 +1,41 @@
+state={
+	id=1874
+	name="STATE_1874"
+	
+	state_category=town
+	
+	history={
+		owner = GND
+		add_core_of = GXC
+		add_core_of = GND
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger"
+					}
+
+				}
+				CHI = {
+					transfer_state = PREV
+
+				}
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		10121 7210
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

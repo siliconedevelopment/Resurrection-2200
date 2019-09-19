@@ -1,0 +1,24 @@
+state={
+	id=858
+	name="STATE_858"
+
+	impassable = yes
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = LBA
+		add_core_of = FZN
+
+	}
+
+	provinces={
+		13252 
+	}
+	manpower=900
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

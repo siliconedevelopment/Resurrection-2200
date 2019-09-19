@@ -1,0 +1,20 @@
+state={
+	id=3155
+	name="STATE_3155"
+	history={
+		
+		owner = NZL 
+		add_core_of = NZL
+		add_core_of = NNZ
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		1746 1786 4718 10609 12664 
+	}
+	manpower=1000 
+ state_category = small_island
+	buildings_max_level_factor=1.000
+}

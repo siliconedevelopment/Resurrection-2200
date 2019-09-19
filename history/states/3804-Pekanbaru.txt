@@ -1,0 +1,19 @@
+state={
+	id=3804
+	name="STATE_3804"
+	provinces={
+		1373 1533 4381 10294 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

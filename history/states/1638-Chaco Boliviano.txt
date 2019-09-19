@@ -1,0 +1,23 @@
+state={
+	id=1638
+	name="STATE_1638"
+	
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BOL
+		add_core_of = STC
+
+	}
+	
+	provinces={
+		12916 13510 13511 13512 
+	}
+	
+	manpower=103135
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

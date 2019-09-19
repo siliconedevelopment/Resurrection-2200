@@ -1,0 +1,20 @@
+state={
+	id=5376
+	name="STATE_5376"
+	manpower = 1000
+	
+	state_category = rural
+	
+	history= {
+		owner = ROM
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ROM
+		add_core_of = GLC
+		add_core_of = BUK
+	}
+	provinces={
+		15822
+	}
+}

@@ -1,0 +1,26 @@
+state={
+	id=2404
+	name="STATE_2404"
+	
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = GER
+		add_core_of = PRS
+		add_core_of = HOH
+		
+
+	}
+	
+	provinces={
+		13884
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

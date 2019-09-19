@@ -1,0 +1,19 @@
+state={
+	id=3670
+	name="STATE_3670"
+	provinces={
+		12755 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

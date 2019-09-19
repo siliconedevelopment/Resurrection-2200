@@ -1,0 +1,24 @@
+state={
+	id=1775
+	name="STATE_1775"
+	
+	state_category=town
+	
+	history={
+		owner = TGR
+		buildings = {
+			infrastructure = 8
+
+		}
+		add_core_of = TGR
+		set_demilitarized_zone = yes
+		add_claim_by = FRA
+		add_claim_by = SPR
+	}
+	
+	provinces={
+		13605 
+	}
+	manpower=60000
+	buildings_max_level_factor=1.000
+}

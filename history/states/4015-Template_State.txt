@@ -1,0 +1,20 @@
+state={
+	id=4015
+	name="STATE_4015"
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = TSC
+		add_core_of = AZR
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	state_category = pastoral
+	provinces={
+		4473
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

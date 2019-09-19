@@ -1,0 +1,19 @@
+state={
+	id=3843
+	name="STATE_3843"
+	provinces={
+		4568 7103 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = VIN
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=3535
+	name="STATE_3535"
+	provinces={
+		11752 7545 4612 
+	}
+	history={
+		owner = PIL
+		add_core_of = PIL
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		
+
+	}
+	manpower=1000 
+ state_category=small_island
+	buildings_max_level_factor=1.000
+}

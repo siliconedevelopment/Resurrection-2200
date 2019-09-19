@@ -1,0 +1,22 @@
+state={
+	id=5141
+	name="STATE_5141"
+	provinces={
+		14652 
+	}
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 7
+
+		}
+		add_core_of = GER
+		add_core_of = PRS
+		add_core_of = HKA
+		add_core_of = HEN
+
+	}
+	manpower=1000
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

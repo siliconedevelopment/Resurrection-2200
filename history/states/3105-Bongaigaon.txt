@@ -1,0 +1,20 @@
+state={
+	id=3105
+	name="STATE_3105"
+	history={
+		
+		owner = RAJ 
+		add_core_of = RAJ
+		add_core_of = ASM
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		10349 
+	}
+	manpower=1000 
+ state_category=pastoral
+	buildings_max_level_factor=1.000
+}

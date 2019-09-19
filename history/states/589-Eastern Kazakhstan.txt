@@ -1,0 +1,28 @@
+
+state={
+	id=589
+	name="STATE_589"
+
+	history={
+		owner = SOV
+		victory_points = {
+			1591 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = KAZ
+		add_core_of = KOK
+
+	}
+
+	provinces={
+		4651 4845 7784 7795 7856 10547 10550 10619 10680 12529 12662 13197 14829 14830
+	}
+	manpower=535191
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

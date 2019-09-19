@@ -1,0 +1,19 @@
+state={
+	id=3138
+	name="STATE_3138"
+	history={
+		
+		owner = CHI 
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		13304 
+	}
+	manpower=1000 
+ state_category = small_island
+	buildings_max_level_factor=1.000
+}

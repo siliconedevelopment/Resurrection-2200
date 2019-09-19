@@ -1,0 +1,22 @@
+state={
+	id=1994
+	name="STATE_1994"
+	
+	state_category=rural
+	
+	history = {
+		owner = USA
+		add_core_of = USA
+		add_core_of = GMA
+		add_core_of = ILL
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		14841 12497 10457 720 12697 12305 7626 7831
+	}
+	manpower=1240120
+	buildings_max_level_factor=1.000
+}

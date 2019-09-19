@@ -1,0 +1,20 @@
+state={
+	id=5041
+	name="STATE_5041"
+	provinces={
+		15617 
+	}
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+
+	}
+	manpower=1030
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=2658
+	name="STATE_2658"
+	history={
+		owner = VIN 
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		14140
+	}
+	manpower=1000 
+ state_category=small_island
+	buildings_max_level_factor=1.000
+}

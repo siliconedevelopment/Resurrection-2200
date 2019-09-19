@@ -1,0 +1,22 @@
+state={
+	id=1167
+	name="STATE_1167"
+
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = VEN
+		add_core_of = AMZ
+
+	}
+
+	provinces={
+		5317 7915 10849
+	}
+	manpower=81731
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

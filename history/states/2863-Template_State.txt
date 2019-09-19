@@ -1,0 +1,22 @@
+state={
+	id=2863
+	name="STATE_2863"
+	history={
+		
+		owner = SAU 
+		add_core_of = SAU
+		add_core_of = YEM
+		add_core_of = ADN
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		14272
+	}
+	manpower=1000 
+  state_category=pastoral
+	impassable = yes
+	buildings_max_level_factor=1.000
+}

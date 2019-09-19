@@ -1,0 +1,23 @@
+state={
+	id=2430
+	name="STATE_2430"
+	provinces={
+		4655 1796 12448 1551 4222 10372 1608
+	}
+	history={
+		owner = PIL
+		add_core_of = PIL
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		
+
+	}
+	manpower=1000 
+ state_category=small_island
+	buildings_max_level_factor=1.000
+}

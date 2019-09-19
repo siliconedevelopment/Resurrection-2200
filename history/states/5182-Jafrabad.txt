@@ -1,0 +1,20 @@
+state={
+	id=5182
+	name="STATE_5182"
+	provinces={
+		15643 
+	}
+	history={
+		owner = JAF
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = JAF
+		add_core_of = RAJ
+
+	}
+	manpower=1030
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

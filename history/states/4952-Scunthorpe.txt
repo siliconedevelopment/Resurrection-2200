@@ -1,0 +1,20 @@
+state={
+	id=4952
+	name="STATE_4952"
+	provinces={
+		9269 
+	}
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ENG
+		add_core_of = EGL
+
+	}
+	manpower=1030
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

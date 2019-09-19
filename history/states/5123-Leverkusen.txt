@@ -1,0 +1,22 @@
+state={
+	id=5123
+	name="STATE_5123"
+	provinces={
+		6469 
+	}
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 7
+
+		}
+		add_core_of = GER
+		add_core_of = PRS
+		add_core_of = RHI
+		set_demilitarized_zone = yes
+
+	}
+	manpower=1000
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

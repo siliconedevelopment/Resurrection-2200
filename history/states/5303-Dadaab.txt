@@ -1,0 +1,15 @@
+state={
+	id=5303
+	name="STATE_5303"
+	provinces={
+		15815 
+	}
+	history = {
+		owner = KEN
+		add_claim_by = KEN
+		add_claim_by = JUB
+	}
+	manpower=1000
+state_category = pastoral
+	buildings_max_level_factor=1.000
+}

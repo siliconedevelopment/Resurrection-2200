@@ -1,0 +1,18 @@
+state={
+	id=2654
+	name="STATE_2654"
+	history={
+		owner = PAC
+		add_core_of = PAC
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		14136
+	}
+	manpower=1000 
+ state_category=small_island
+	buildings_max_level_factor=1.000
+}

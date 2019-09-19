@@ -1,0 +1,20 @@
+state={
+	id=4225
+	name="STATE_4225"
+	provinces={
+		4410 7938 8120 10332 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = REW
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = REW
+		add_core_of = RAJ
+	}
+	buildings_max_level_factor=1.000
+}

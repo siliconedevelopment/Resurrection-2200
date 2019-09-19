@@ -1,0 +1,26 @@
+state={
+	id=2214
+	name="STATE_2214"
+	
+	history={
+		owner = SAU
+		victory_points = {
+			12758 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SAU
+		add_core_of = HJZ
+		add_core_of = JBL
+
+	}
+
+	provinces={
+		13727 7934 10748 14584
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

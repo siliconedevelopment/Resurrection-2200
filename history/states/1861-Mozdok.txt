@@ -1,0 +1,25 @@
+
+state={
+	id=1861
+	name="STATE_1861"
+	state_category=rural
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = CSS
+		add_core_of = TRK
+
+	}
+	
+	provinces={
+		6702 6718 6733 11661 11690 11633
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=1980
+	name="STATE_1980"
+	
+	state_category=rural
+	
+	history = {
+		owner = USA
+		add_core_of = USA
+		add_core_of = ABS
+		add_core_of = GMA
+		add_core_of = MNA
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		1767 1851 7760 10587 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

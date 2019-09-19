@@ -1,0 +1,21 @@
+state={
+	id=3540
+	name="STATE_3540"
+	provinces={
+		12319
+	}
+	history={
+		add_core_of = VIN
+		owner = VIN
+		add_claim_by = CHI
+		add_claim_by = PRC
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=1000 
+ state_category=small_island
+	buildings_max_level_factor=1.000
+}

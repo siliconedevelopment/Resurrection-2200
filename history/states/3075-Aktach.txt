@@ -1,0 +1,20 @@
+state={
+	id=3075
+	name="STATE_3075"
+	history={
+		
+		owner = SOV 
+		add_core_of = SOV
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		1749 1818 12427 
+	}
+	manpower=1000 
+ state_category=pastoral
+	buildings_max_level_factor=1.000
+}

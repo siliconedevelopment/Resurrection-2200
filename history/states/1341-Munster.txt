@@ -1,0 +1,23 @@
+state={
+	id=1341
+	name="STATE_1341"
+	
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 8
+
+		}
+		add_core_of = GER
+		add_core_of = PRS
+		add_core_of = WSF
+
+	}
+	
+	provinces={
+		6622 
+	}
+	manpower=2500000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

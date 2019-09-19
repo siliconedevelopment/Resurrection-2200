@@ -1,0 +1,26 @@
+
+state={
+	id=382
+	name="STATE_382"
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = USA
+		add_core_of = CLR
+
+	}
+
+	provinces={
+		7684 7999 9792 13325
+	}
+	manpower=343535
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

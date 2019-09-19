@@ -1,0 +1,18 @@
+state={
+	id=3207
+	name="STATE_3207"
+	history={
+		owner = ENG 
+		add_core_of = GSY
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		14302 
+	}
+	manpower=1000
+	state_category = small_island
+	buildings_max_level_factor=1.000
+}

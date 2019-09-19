@@ -1,0 +1,20 @@
+state={
+	id=5206
+	name="STATE_5206"
+	provinces={
+		3537 
+	}
+	history={
+		owner = CZE
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = CZE
+		add_core_of = SLO
+
+	}
+	manpower = 1000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

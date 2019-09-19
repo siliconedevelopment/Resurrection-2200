@@ -1,0 +1,21 @@
+state={
+	id=3283
+	name="STATE_3283"
+	provinces={
+		4141 4431 11972 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = SHC
+		add_core_of = SHC
+		add_core_of = PRC
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

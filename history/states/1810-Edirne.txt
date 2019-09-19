@@ -1,0 +1,26 @@
+
+state={
+	id=1810
+	name="STATE_1810"
+
+	history={
+		add_core_of = GRE
+		add_core_of = THR
+		owner = TUR
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+
+		}
+		add_core_of = TUR
+
+
+	}
+
+	provinces={
+		3893 11842 13620 13688 
+	}
+	manpower=200506
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,26 @@
+state={
+	id=2168
+	name="STATE_2168"
+	
+	state_category=town
+
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 3
+			1351 = {
+				naval_base = 1
+
+			}
+			7413 = {
+				naval_base = 1
+
+			}
+		}
+	}
+	provinces={
+		1419 7413 10141 
+	}
+	manpower=4045555	buildings_max_level_factor=1.000
+}

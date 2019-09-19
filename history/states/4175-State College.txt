@@ -1,0 +1,20 @@
+state={
+	id=4175
+	name="STATE_4175"
+	provinces={
+		14887 14888 
+	}
+	history={
+		
+		owner = USA 
+		add_core_of = USA
+		add_core_of = PEN
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	manpower=1000 
+ state_category=pastoral
+	buildings_max_level_factor=1.000
+}

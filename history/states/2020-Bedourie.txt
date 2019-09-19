@@ -1,0 +1,22 @@
+state={
+	id=2020
+	name="STATE_2020"
+
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = AST
+		add_core_of = QNS
+
+	}
+
+	provinces={
+		5206
+	}
+	manpower=500
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

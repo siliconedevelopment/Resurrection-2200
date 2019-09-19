@@ -1,0 +1,20 @@
+state={
+	id=2748
+	name="STATE_2748"
+	history={
+		
+		owner = ADN 
+		buildings = {
+			infrastructure = 4
+			
+		}
+		add_core_of = YEM
+		add_core_of = ADN
+	}
+	provinces={
+		13079 12894
+	}
+	manpower=1000 
+ state_category=small_island
+	buildings_max_level_factor=1.000
+}

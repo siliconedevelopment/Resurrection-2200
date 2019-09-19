@@ -1,0 +1,20 @@
+state={
+	id=3085
+	name="STATE_3085"
+	history={
+		
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = TMS
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		4958 
+	}
+	manpower=1000 
+ state_category=pastoral
+	buildings_max_level_factor=1.000
+}

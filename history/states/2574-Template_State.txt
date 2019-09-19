@@ -1,0 +1,17 @@
+state={
+	id=2574
+	name="STATE_2574"
+	history={
+		owner = NZL 
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		14056
+	}
+	manpower=1000 
+ state_category=small_island
+	buildings_max_level_factor=1.000
+}

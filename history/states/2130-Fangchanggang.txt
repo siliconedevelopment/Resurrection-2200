@@ -1,0 +1,48 @@
+
+state={
+	id=2130
+	name="STATE_2130"
+	
+	state_category=town
+	
+	history={
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger"
+					}
+
+				}
+				remove_core_of = GXC
+				CHI = {
+					transfer_state = PREV
+
+				}
+
+			}
+			JAP = {
+				set_province_controller = 1018
+				set_province_controller = 4023
+				set_province_controller = 10004
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1469 4121 4177 4656 11926 
+	}
+	manpower=1091667
+	buildings_max_level_factor=1.000
+}

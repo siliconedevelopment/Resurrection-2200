@@ -1,0 +1,29 @@
+
+state={
+	id=1194
+	name="STATE_1194"
+
+	history={
+		owner = SHG
+		add_core_of = CHI
+		add_core_of = SHG
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+
+	}
+
+	provinces={
+		1104 1200 4186 4205 7105 10018 
+	}
+	manpower=4365874
+	buildings_max_level_factor=1.000
+	state_category=town
+}

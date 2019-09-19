@@ -1,0 +1,22 @@
+state={
+	id=2217
+	name="STATE_2217"
+
+	state_category=pastoral
+	
+	history={
+		owner = RAJ
+		add_core_of = BRM
+		add_core_of = SHA
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	provinces={
+		7562 12363 1170 2061 1566 1607 4654 7603 
+	}
+	manpower=1000 
+	buildings_max_level_factor=1.000
+}

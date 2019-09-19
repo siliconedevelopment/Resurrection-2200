@@ -1,0 +1,19 @@
+state={
+	id=3834
+	name="STATE_3834"
+	provinces={
+		10954 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = AST
+		add_core_of = PNG
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

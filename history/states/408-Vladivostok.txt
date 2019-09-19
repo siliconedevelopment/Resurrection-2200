@@ -1,0 +1,28 @@
+
+state={
+	id=408
+	name="STATE_408"
+	resources={
+		chromium=20.000
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+			air_base = 4
+		}
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = SBR
+		add_core_of = KHA
+
+	}
+
+	provinces={
+		810 3787 3843 3977 6684 6838 6961 6989 9762 9895 9926 11750 
+	}
+	manpower=21235
+	buildings_max_level_factor=1.000
+	state_category=town
+}

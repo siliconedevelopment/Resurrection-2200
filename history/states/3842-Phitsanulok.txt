@@ -1,0 +1,19 @@
+state={
+	id=3842
+	name="STATE_3842"
+	provinces={
+		10221 10398 10411 12173 12345 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = SIA
+		add_core_of = SIA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

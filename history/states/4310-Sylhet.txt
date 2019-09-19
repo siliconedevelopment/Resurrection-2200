@@ -1,0 +1,21 @@
+state={
+	id=4310
+	name="STATE_4310"
+	provinces={
+		15044 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RAJ
+		add_claim_by = PAK
+		add_claim_by = BAN
+	}
+	buildings_max_level_factor=1.000
+}

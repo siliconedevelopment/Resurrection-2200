@@ -1,0 +1,23 @@
+
+state={
+	id=1415
+	name="STATE_1415"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = USA
+		add_core_of = CAL
+
+	}
+
+	provinces={
+		505
+	}
+	manpower=2120
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

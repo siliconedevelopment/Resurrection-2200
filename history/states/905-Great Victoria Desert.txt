@@ -1,0 +1,29 @@
+state={
+	id=905
+	name="STATE_905"
+
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 2
+			1652 = {
+				naval_base = 1
+				coastal_bunker = 1
+
+			}
+		}
+		add_core_of = AST
+		add_core_of = WAT
+		victory_points = {
+			1652 3 
+		}
+
+	}
+
+	provinces={
+		1526 2191 10997 11011 12948 12962 12976 12990 10969 8200 10949 4630 10983 5175 1652 2157 8228 8130 8243 7453
+	}
+	manpower=10400
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

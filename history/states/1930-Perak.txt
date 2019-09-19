@@ -1,0 +1,28 @@
+state={
+	id=1930
+	name="STATE_1930"
+	
+	history={
+		owner = MAL
+		victory_points = {
+			10297 1 
+		}
+		buildings = {
+			infrastructure = 3
+			10297 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = MAL
+
+	}
+
+	provinces={
+		1376 4384 10297	12255 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=810
+	name="STATE_810"
+
+	history={
+		owner = YUG
+		add_core_of = MNT
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = YUG
+		add_core_of = SDJ
+
+	}
+
+	provinces={
+		3922 
+	}
+	manpower=381000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

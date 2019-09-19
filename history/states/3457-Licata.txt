@@ -1,0 +1,21 @@
+state={
+	id=3457
+	name="STATE_3457"
+	provinces={
+		1009 4014 7147 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = ITA
+		add_core_of = KTS
+		add_core_of = SIC
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+}

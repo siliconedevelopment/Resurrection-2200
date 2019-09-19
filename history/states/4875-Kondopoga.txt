@@ -1,0 +1,21 @@
+state={
+	id=4875
+	name="STATE_4875"
+	provinces={
+		40 6070 9078 
+	}
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = KAR
+
+	}
+	manpower=1030
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

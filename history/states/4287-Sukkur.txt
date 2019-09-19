@@ -1,0 +1,20 @@
+state={
+	id=4287
+	name="STATE_4287"
+	provinces={
+		15030 
+	}
+	manpower = 1000
+	
+	state_category = pastoral
+
+	history={
+		owner = BHW
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RAJ
+		add_core_of = BHW
+	}
+	buildings_max_level_factor=1.000
+}

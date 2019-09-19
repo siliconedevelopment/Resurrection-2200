@@ -1,0 +1,19 @@
+state={
+	id=3147
+	name="STATE_3147"
+	history={
+		
+		owner = ENG 
+		add_core_of = JSY
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		13287 
+	}
+	manpower=1000 
+ state_category = small_island
+	buildings_max_level_factor=1.000
+}

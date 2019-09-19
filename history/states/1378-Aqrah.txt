@@ -1,0 +1,24 @@
+
+state={
+	id=1378
+	name="STATE_1378"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = UZB
+		add_core_of = BKH
+
+	}
+
+	provinces={
+		1573 7639 10671 12722 12239 10205
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}
