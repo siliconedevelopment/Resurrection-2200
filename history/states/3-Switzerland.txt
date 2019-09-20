@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SWI
+		owner = UNC
 		buildings = {
 			infrastructure = 6
 			arms_factory = 3
@@ -15,8 +15,6 @@ state={
 			air_base = 4
 
 		}
-		add_core_of = SWI
-		add_core_of = KBE
 	}
 
 	provinces={
