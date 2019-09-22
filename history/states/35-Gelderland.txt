@@ -4,7 +4,7 @@ state={
 	name="STATE_35"
 
 	history={
-		owner = HOL
+		owner = UNC
 		add_core_of = NBR
 		add_core_of = HOL
 		buildings = {

@@ -3,7 +3,7 @@ state={
 	name="STATE_2793"
 	history={
 		
-		owner = GER 
+		owner = KEL
 		add_core_of = GER
 		add_core_of = PRS
 		add_core_of = SCH

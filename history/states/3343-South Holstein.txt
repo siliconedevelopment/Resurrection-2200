@@ -10,7 +10,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = GER
+		owner = HAM
 		add_core_of = GER
 		add_core_of = PRS
 		add_core_of = SCH

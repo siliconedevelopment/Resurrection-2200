@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = GRE
+		owner = UNC
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2

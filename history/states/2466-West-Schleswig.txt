@@ -2,10 +2,10 @@ state={
 	id=2466
 	name="STATE_2466"
 	provinces={
-		3231
+		317 3231
 	}
 	history={
-		owner = GER
+		owner = UNC
 		buildings = {
 			infrastructure = 6
 

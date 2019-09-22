@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = CZE
+		owner = UNC
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3

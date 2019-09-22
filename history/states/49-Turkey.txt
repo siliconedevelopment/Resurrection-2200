@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = TUR
+		owner = UNC
 		victory_points = {
 			11747 10 
 		}

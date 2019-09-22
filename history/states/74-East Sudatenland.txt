@@ -9,7 +9,7 @@ state=
 	
 	history=
 	{
-		owner = CZE
+		owner = UNC
 		victory_points = {
 			3583 1 
 		}

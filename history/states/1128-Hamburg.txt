@@ -2,12 +2,11 @@
 state={
 	id=1128
 	name="STATE_1128"
-
 	history={
 		victory_points = {
 			9347 15 
 		}
-		owner = GER
+		owner = HAM
 		buildings = {
 			infrastructure = 6
 

@@ -9,7 +9,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = GER
+		owner = KEL
 		buildings = {
 			infrastructure = 8
 

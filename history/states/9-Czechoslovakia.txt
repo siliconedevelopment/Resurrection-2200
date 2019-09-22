@@ -10,7 +10,7 @@ state={
 	state_category = large_city
 	
 	history={
-		owner = CZE
+		owner = UNC
 		victory_points = { 11542 20 }
 		victory_points = { 6418 5 }
 		buildings = {

@@ -1,1 +1,3 @@
 UNC = "countries/Unclaimed.txt"
+HAM = "countries/Hamburg.txt"
+KEL = "countries/Kiel.txt"
