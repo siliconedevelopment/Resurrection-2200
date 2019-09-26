@@ -5,14 +5,12 @@ state={
 		6501 
 	}
 	history={
-		owner = GER
+		owner = SAX
 		buildings = {
 			infrastructure = 7
 
 		}
-		add_core_of = GER
-		add_core_of = PRS
-		add_core_of = SMA
+		add_core_of = SAX
 
 	}
 	manpower=1000

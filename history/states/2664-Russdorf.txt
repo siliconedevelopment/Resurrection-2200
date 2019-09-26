@@ -5,9 +5,7 @@ state={
 		14756
 	}
 	history={
-		owner = GER
-		add_core_of = GER
-		add_core_of = SAL
+		owner = SAX
 		add_core_of = SAX
 		buildings = {
 			infrastructure = 5

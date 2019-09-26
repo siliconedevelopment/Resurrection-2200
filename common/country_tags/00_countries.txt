@@ -1,3 +1,5 @@
 UNC = "countries/Unclaimed.txt"
 HAM = "countries/Hamburg.txt"
 KEL = "countries/Kiel.txt"
+BRE = "countries/Bremen.txt"
+SAX = "countries/Saxony.txt"

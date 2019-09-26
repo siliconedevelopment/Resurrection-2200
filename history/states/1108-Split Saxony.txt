@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = GER
+		owner = SAX
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
@@ -16,7 +16,6 @@ state={
 		victory_points = {
 			3535 5 
 		}
-		add_core_of = GER
 		add_core_of = SAX
 		
 
