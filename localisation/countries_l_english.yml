@@ -47,3 +47,7 @@
  SAX_democratic_ADJ:0 "German"
  SAX_neutrality_ADJ:0 "German"
  SAX_communism_ADJ:0 "German"
+ RHY_fascism:0 "Rhynish Covenant"
+ RHY_democratic:0 "Rhynish Republik"
+ RHY_neutrality:0 "Kingdom of the Rhyn"
+ RHY_communism:0 "New Rhyn Community"
