@@ -4,7 +4,7 @@ state={
 	name="STATE_769"
 
 	history={
-		owner = GER
+		owner = RHY
 		victory_points = {
 			11531 1 
 		}
@@ -14,7 +14,7 @@ state={
 		}
 		add_core_of = GER
 		add_core_of = SAR
-		add_core_of = RHI
+		add_core_of = RHY
 		add_core_of = PRS
 		set_demilitarized_zone = yes
 		1936.3.7 = {

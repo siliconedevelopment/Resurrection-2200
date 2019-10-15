@@ -8,14 +8,14 @@ state={
 	}
 
 	history={
-		owner = UNC
+		owner = RHY
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 2
 
 		}
 		add_core_of = GER
-		add_core_of = RHI
+		add_core_of = RHY
 		add_core_of = PRS
 		set_demilitarized_zone = yes
 		1936.3.7 = {
