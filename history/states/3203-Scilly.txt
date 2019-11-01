@@ -2,10 +2,8 @@ state={
 	id=3203
 	name="STATE_3203"
 	history={
-		owner = ENG 
-		add_core_of = ENG
-		add_core_of = EGL
-		add_core_of = CRN
+		owner = UNC
+		add_core_of = KER
 		buildings = {
 			infrastructure = 4
 			

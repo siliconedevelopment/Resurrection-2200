@@ -5,13 +5,11 @@ state={
 	state_category = city
 	
 	history= {
-		owner = ENG
+		owner = KER
 		buildings = {
 			infrastructure = 8
 		}
-		add_core_of = ENG
-		add_core_of = EGL
-		add_claim_by = CRN
+		add_claim_by = KER
 	}
 	
 	provinces={

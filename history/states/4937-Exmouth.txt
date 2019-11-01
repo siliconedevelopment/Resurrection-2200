@@ -5,14 +5,12 @@ state={
 		3463 
 	}
 	history={
-		owner = ENG
+		owner = KER
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = ENG
-		add_core_of = EGL
-		add_claim_by = CRN
+		add_core_of = KER
 
 	}
 	manpower=1030
