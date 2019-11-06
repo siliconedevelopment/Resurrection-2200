@@ -55,3 +55,7 @@
  KER_democratic:0 "Repoblek Kernow"
  KER_neutrality:0 "Rywvaneth Kernow"
  KER_communism:0 "Newydd Tuskonteth Kernow"
+ WLS_fascism:0 "Ymerodraeth y Brythoniaid"
+ WLS_democratic:0 "Gweriniaeth y Brythoniaid"
+ WLS_neutrality:0 "Teyrnas y Brythoniaid"
+ WLS_communism:0 "Cymuned Pobl Cymru"

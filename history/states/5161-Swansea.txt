@@ -5,12 +5,11 @@ state={
 		407 
 	}
 	history={
-		owner = ENG
+		owner = UNC
 		buildings = {
 			infrastructure = 6
 
 		}
-		add_core_of = ENG
 		add_core_of = WLS
 		
 
