@@ -6,7 +6,7 @@ state= {
 	state_category = city
 	history=
 	{
-		owner = ENG
+		owner = WLS
 		buildings = {
 			infrastructure = 5
 		}

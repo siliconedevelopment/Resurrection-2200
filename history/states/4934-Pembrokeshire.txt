@@ -5,12 +5,11 @@ state={
 		11361 
 	}
 	history={
-		owner = ENG
+		owner = WLS
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = ENG
 		add_core_of = WLS
 
 	}
