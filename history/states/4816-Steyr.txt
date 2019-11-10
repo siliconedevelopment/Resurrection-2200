@@ -5,7 +5,7 @@ state={
 		13361 
 	}
 	history={
-		owner = AUS
+		owner = BAV
 		buildings = {
 			infrastructure = 3
 

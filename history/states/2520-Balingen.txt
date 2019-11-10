@@ -5,7 +5,7 @@ state={
 		519
 	}
 	history={
-		owner = GER
+		owner = BAV
 		buildings = {
 			infrastructure = 5
 
