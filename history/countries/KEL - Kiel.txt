@@ -56,7 +56,7 @@ set_technology = {
 
 
 create_country_leader = {
-	name = "Detlef Tiedeman n"
+	name = "Detlef Tiedemann"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
