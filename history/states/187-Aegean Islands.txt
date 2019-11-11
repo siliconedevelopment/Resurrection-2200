@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = GRE
+		owner = UNC
 		buildings = {
 			infrastructure = 4
 			8435 = {
@@ -21,8 +21,6 @@ state={
 
 		}
 		add_core_of = GRE
-
-		set_demilitarized_zone = yes
 
 	}
 

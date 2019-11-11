@@ -56,7 +56,7 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Awen Cûn"
+	name = "Liebwin Everarda"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"

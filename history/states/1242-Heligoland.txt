@@ -3,7 +3,7 @@ state={
 	name="STATE_1242"
 	
 	history={
-		owner = GER
+		owner = UNC
 		victory_points = {
 			13280 1 
 		}
@@ -17,12 +17,8 @@ state={
 			}
 
 		}
-		add_core_of = GER
-		add_core_of = SCH
-		add_core_of = HAM
 		add_core_of = FRS
-		add_claim_by = ENG
-		add_claim_by = DEN
+
 
 	}
 	
@@ -30,7 +26,7 @@ state={
 		13280 
 	}
 	
-	manpower=938
+	manpower=182
 	buildings_max_level_factor=1.000
 	state_category = rural
 }

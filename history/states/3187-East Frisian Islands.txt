@@ -2,8 +2,7 @@ state={
 	id=3187
 	name="STATE_3187"
 	history={
-		owner = HOL 
-		add_core_of = HOL
+		owner = UNC 
 		add_core_of = FRS
 		buildings = {
 			infrastructure = 4
@@ -13,7 +12,7 @@ state={
 	provinces={
 		13722
 	}
-	manpower=10000
+	manpower=478
 	state_category = pastoral
 	buildings_max_level_factor=1.000
 }

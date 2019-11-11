@@ -9,14 +9,14 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = GER
+		owner = BRE
 		buildings = {
 			infrastructure = 8
 
 		}
-		add_core_of = GER
-		add_core_of = PRS
-		add_claim_by = OLD
+		add_core_of = BRE
+		add_core_of = HAM
+		add_claim_by = FRS
 	
 	}
 	buildings_max_level_factor=1.000

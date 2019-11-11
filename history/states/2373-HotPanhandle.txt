@@ -3,12 +3,11 @@ state={
 	name="STATE_2373"
 	
 	history={
-		owner = FRS
+		owner = UNC
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = FRS
 
 	}
 	

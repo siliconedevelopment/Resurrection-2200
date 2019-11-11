@@ -4,7 +4,7 @@ state={
 	name="STATE_772"
 
 	history={
-		owner = GER
+		owner = UNC
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 2
@@ -13,21 +13,13 @@ state={
 		victory_points = {
 			6488 20 
 		}
-		add_core_of = GER
-		add_core_of = PRS
-		add_core_of = NSU
-		add_core_of = HEN
-		1936.3.7 = {
-			set_demilitarized_zone = no
-
-		}
 
 	}
 
 	provinces={
 		9547
 	}
-	manpower=87000
+	manpower=36852
 	buildings_max_level_factor=1.000
 	state_category=small_town
 }

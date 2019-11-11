@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = TUR
+		owner = UNC
 		victory_points = {
 			9833 20 
 		}
@@ -22,16 +22,13 @@ state={
 			}
 
 		}
-		add_core_of = TUR
-
-		set_demilitarized_zone = yes
 
 	}
 
 	provinces={
 		9833 
 	}
-	manpower=604000
+	manpower=176596
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

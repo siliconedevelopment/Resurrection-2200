@@ -3,8 +3,8 @@ state={
 	name="STATE_1389"
 	
 	history={
-		owner = GER
-		controller = GER
+		owner = UNC
+
 		victory_points = {
 			6375 1 
 		}
@@ -13,9 +13,6 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = GER
-		add_core_of = PRS
-		add_core_of = KON
 
 	}
 	

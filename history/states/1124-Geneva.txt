@@ -4,20 +4,18 @@ state={
 	name="STATE_1124"
 
 	history={
-		owner = SWI
+		owner = UNC
 		buildings = {
 			infrastructure = 4
 
 		}
-		add_core_of = SWI
-		add_core_of = RHD
-		add_core_of = KVD
+
 	}
 
 	provinces={
-		6666 
+		6666 15954
 	}
-	manpower=198979
+	manpower=18379
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

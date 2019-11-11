@@ -8,23 +8,9 @@ state={
 	}
 
 	history={
-		owner = AUS
+		owner = UNC
 		victory_points = {
 			9648 5 
-		}
-		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 2
-
-		}
-		add_core_of = AUS
-		add_core_of = STY
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-
 		}
 
 	}
@@ -32,7 +18,7 @@ state={
 	provinces={
 		653 9648 9679 13360 
 	}
-	manpower=723212
+	manpower=183920
 	buildings_max_level_factor=1.000
 	state_category=town
 }

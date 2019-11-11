@@ -4,16 +4,9 @@ state={
 	name="STATE_771"
 
 	history={
-		owner = GER
+		owner = UNC
 		buildings = {
 			infrastructure = 8
-
-		}
-		add_core_of = GER
-		add_core_of = BAD
-		set_demilitarized_zone = yes
-		1936.3.7 = {
-			set_demilitarized_zone = no
 
 		}
 
@@ -22,7 +15,7 @@ state={
 	provinces={
 		6542 6712 
 	}
-	manpower=31730
+	manpower=9764
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }
