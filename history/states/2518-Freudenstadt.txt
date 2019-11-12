@@ -5,7 +5,7 @@ state={
 		3692
 	}
 	history={
-		owner = GER
+		owner = UNC
 		buildings = {
 			infrastructure = 5
 
