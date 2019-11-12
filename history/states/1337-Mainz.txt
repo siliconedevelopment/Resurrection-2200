@@ -3,22 +3,13 @@ state={
 	name="STATE_1337"
 	
 	history={
-		owner = GER
+		owner = UNC
 		victory_points = {
 			11560 5 
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 2
 			industrial_complex = 2
-
-		}
-		add_core_of = GER
-		add_core_of = PRS
-		add_core_of = NSU
-		add_core_of = HEN
-		set_demilitarized_zone = yes
-		1936.3.7 = {
-			set_demilitarized_zone = no
 
 		}
 
@@ -27,7 +18,7 @@ state={
 	provinces={
 		6444 
 	}
-	manpower=200000
+	manpower=37425
 	buildings_max_level_factor=1.000
 	state_category=town
 }

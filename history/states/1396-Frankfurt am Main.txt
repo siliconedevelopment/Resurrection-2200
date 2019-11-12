@@ -3,30 +3,23 @@ state={
 	name="STATE_1396"
 	
 	history={
-		owner = GER
+		owner = RHY
 		buildings = {
-			infrastructure = 7
+			infrastructure = 3
 			industrial_complex = 2
 
 		}
 		victory_points = {
 			6488 20 
 		}
-		add_core_of = GER
-		add_core_of = FRN
-		add_core_of = PRS
-		set_demilitarized_zone = yes
-		1936.3.7 = {
-			set_demilitarized_zone = no
-
-		}
+		add_core_of = RHY
 
 	}
 	
 	provinces={
 		6488 
 	}
-	manpower=497918
+	manpower=245258
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }
