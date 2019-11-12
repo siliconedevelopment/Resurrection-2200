@@ -5,16 +5,16 @@ state={
 		587 
 	}
 	
-	manpower = 1000
+	manpower = 57347
 	
 	state_category = pastoral
 
 	history={
-		owner = GER
-		add_core_of = PRS
-		add_core_of = RHI
-		add_core_of = GER
-		set_demilitarized_zone = yes
+		owner = RHY
+
+		add_core_of = RHY
+
+
 		buildings = {
 			infrastructure = 1
 		}
