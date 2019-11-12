@@ -3,14 +3,13 @@ state={
 	name="STATE_1334"
 	
 	history={
-		owner = GER
+		owner = BAD
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 1
 
 		}
-		add_core_of = GER
 		add_core_of = BAD
 		
 
@@ -19,7 +18,7 @@ state={
 	provinces={
 		3679 
 	}
-	manpower=40000
+	manpower=21834
 	buildings_max_level_factor=1.000
 	state_category=city
 }
