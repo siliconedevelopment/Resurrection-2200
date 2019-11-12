@@ -2,20 +2,17 @@ state={
 	id=3192
 	name="STATE_3192"
 	history={
-		owner = BEL 
-		add_core_of = BEL
-		add_core_of = GER
-		add_core_of = PRS
-		add_core_of = LEG
+		owner = RHY 
+		add_core_of = RHY
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 			
 		}
 	}
 	provinces={
 		14295 
 	}
-	manpower=1000
+	manpower=1456
 	state_category = pastoral
 	buildings_max_level_factor=1.000
 }

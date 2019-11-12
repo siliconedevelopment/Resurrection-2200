@@ -5,18 +5,13 @@ state={
 		14739
 	}
 	history={
-		owner = GER
-		set_demilitarized_zone = yes
-		add_core_of = GER
-		add_core_of = PRS
-		add_core_of = HEN
-		add_core_of = HHO
-		add_claim_by = HES
+		owner = RHY
+		add_core_of = RHY
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 		}
 	}
-	manpower=1000 
+	manpower=4325
  state_category=small_island
 	buildings_max_level_factor=1.000
 }
