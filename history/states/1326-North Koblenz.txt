@@ -3,17 +3,22 @@ state={
 	name="STATE_1326"
 	
 	history={
-		owner = RHY
+		owner = GER
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 
 		}
+		add_core_of = GER
+		add_core_of = PRS
+		add_core_of = RHI
+		set_demilitarized_zone = yes
+
 	}
 	
 	provinces={
 		529 
 	}
-	manpower=7421
+	manpower=15000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

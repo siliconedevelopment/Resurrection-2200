@@ -2,17 +2,20 @@ state={
 	id=3191
 	name="STATE_3191"
 	history={
-		owner = RHY 
-		add_core_of = RHY
+		owner = GER 
+		add_core_of = GER
+		add_core_of = RHI
+		add_core_of = PRS
+		set_demilitarized_zone = yes
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 			
 		}
 	}
 	provinces={
 		14296 
 	}
-	manpower=953
+	manpower=1000
 	state_category = large_city
 	buildings_max_level_factor=1.000
 }

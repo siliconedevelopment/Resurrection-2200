@@ -5,21 +5,21 @@ state=
 	
 	state_category = town
 	
-	manpower = 112462
+	manpower = 294748
 	resources={
-		steel=2 # was: 8
+		steel=5 # was: 8
 	}
 
 	history=
 	{
-		owner = RHY
+		owner = UNC
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 3
 		}
 		victory_points = { 6583 5 }
-		add_core_of = RHY
+		add_core_of = LUX
 	}
 
 	provinces=

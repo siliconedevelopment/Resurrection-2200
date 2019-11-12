@@ -8,20 +8,27 @@ state={
 	}
 
 	history={
-		owner = RHY
+		owner = GER
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 
 		}
-		add_core_of = RHY
+		add_core_of = GER
+		add_core_of = PRS
+		add_core_of = RHI
+		set_demilitarized_zone = yes
+		1936.3.7 = {
+			set_demilitarized_zone = no
+
+		}
 
 	}
 
 	provinces={
 		11470 
 	}
-	manpower=92838
+	manpower=456132
 	buildings_max_level_factor=1.000
 	state_category=town
 }
