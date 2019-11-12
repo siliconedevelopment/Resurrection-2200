@@ -4,14 +4,14 @@ state={
 	provinces={
 		14704
 	}
-	manpower=8432 
+	manpower=1000 
 	state_category = pastoral
 
 	history={
-		owner = RHY
-		add_core_of = RHY
+		owner = LUX
+		add_core_of = LUX
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 		}
 	}
 	buildings_max_level_factor=1.000

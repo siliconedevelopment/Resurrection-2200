@@ -5,15 +5,17 @@ state={
 		11547 
 	}
 	history={
-		owner = RHY
+		owner = GER
 		buildings = {
-			infrastructure = 3
+			infrastructure = 7
 
 		}
-
+		add_core_of = GER
+		add_core_of = BAV
+		set_demilitarized_zone = yes
 
 	}
-	manpower=1146
+	manpower=1000
 	state_category=rural
 	buildings_max_level_factor=1.000
 }
