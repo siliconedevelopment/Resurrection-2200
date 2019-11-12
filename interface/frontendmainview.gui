@@ -23,19 +23,17 @@ guiTypes = {
 	### MAIN MENU PANEL (upperleft)
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
-		position = { x=0 y =0 }
-		show_position = { x=0 y =0 }
+		position = { x=0 y =-200 }
+		show_position = { x=0 y =-1 }
 		animation_type = decelerated
 		animation_time = 1000
-		orientation = center
-		origo = center
-		size = { width = 1200 height = 168}
+		size = { width = 256 height = 768}
 		
 		iconType =
 		{
 			name ="frontend_game_logo"
 			spriteType = "GFX_frontend_game_logo"
-			position = { x= 0 y = -275 }
+			position = { x= 20 y = 20 }
 		}
 		
 	}
@@ -64,21 +62,20 @@ guiTypes = {
 		animation_type = decelerated
 		animation_time = 1000					
 		size = { width = 256 height = 768}
-		Orientation = lower_right
-		Origo = lower_right
+		Orientation = upper_right
 
 		iconType =
 		{
 			name ="frontend_dev_logo"
 			spriteType = "GFX_frontend_dev_logo"
-			position = { x= -5000 y = 575 }
+			position = { x= 15 y = 15 }
 		}
 		
 		iconType =
 		{
 			name ="pdx_int_logo"
 			spriteType = "GFX_pdx_int_logo"
-			position = { x= -5000 y = 575 }
+			position = { x= 135 y = 15 }
 		}		
 		
 	}		
@@ -87,19 +84,21 @@ guiTypes = {
 	containerWindowType = {
 		name = "mainmenu_single_player"
 		position = { x=0 y =0}
-		size = { width = 421 height = 492}
-		Orientation = lower_left
-		Origo = lower_left		
+		size = { width = 320 height = 395}
+		Orientation = CENTER
+		Origo = center	
 				
 		background = {
 			name = "Background"		
-			quadTextureSprite ="GFX_newmenu"
+			quadTextureSprite ="GFX_tiled_window"
 		}
 		
 		ButtonType = {
 			name = "sp_continue_button"
-			position = { x = 65 y = 110 }
-			quadTextureSprite ="GFX_continuebutton"	
+			position = { x = 16 y = 18 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "FE_CONTINUE"
+			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -107,7 +106,7 @@ guiTypes = {
 		iconType = {
 			name = "sp_continue_flag_left"
 			quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= 35 y = 5000 }
+			position = { x= 35 y = 22 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -115,7 +114,7 @@ guiTypes = {
 		iconType = {
 			name = "sp_continue_flag_left_overlay"
 			quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= 35 y = 5000 }
+			position = { x= 35 y = 22 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -123,7 +122,7 @@ guiTypes = {
 		iconType = {
 			name = "sp_continue_flag_right"
 			quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= 280 y = 105 }
+			position = { x= 245 y = 22 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -131,39 +130,47 @@ guiTypes = {
 		iconType = {
 			name = "sp_continue_flag_right_overlay"
 			quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= 280 y = 105 }
+			position = { x= 245 y = 22 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
 		
 		ButtonType = {
 			name = "sp_new_button"
-			position = { x = 70 y = 170}
-			quadTextureSprite ="GFX_newgamebutton"	
+			position = { x = 16 y = 58 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "FE_NEW"
+			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
 		
 		ButtonType = {
 			name = "sp_load_button"
-			position = { x = 75 y = 235 }
-			quadTextureSprite ="GFX_loadgamebutton"	
+			position = {  x = 16 y = 98 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "MENU_BAR_LOAD"
+			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
 		
 		ButtonType = {
 			name = "sp_tutorial_button"
-			position = {  x = 80 y = 300 }
-			quadTextureSprite ="GFX_tutorialbutton"	
+			position = { x = 16 y = 138}
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "FE_TUTORIAL"
+			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
 		
 		ButtonType = {
 			name = "sp_back_button"
-			position = { x = 90 y = 395 }
-			quadTextureSprite ="GFX_backbutton"	
+			position = { x = 16 y = 218 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "BACK"
+			buttonFont = "hoi_24header"
 			clicksound = click_close
 			oversound = ui_menu_over
 			shortcut = "ESCAPE"
@@ -174,27 +181,31 @@ guiTypes = {
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
 		position = { x=0 y =0}
-		size = { width = 421 height = 492}
-		Orientation = lower_left
-		Origo = lower_left		
+		size = { width = 320 height = 395}
+		Orientation = CENTER
+		Origo = center		
 				
-		background = { 
+		background = {
 			name = "Background"		
-			quadTextureSprite ="GFX_newmenu"
+			quadTextureSprite ="GFX_tiled_window"
 		}
 			
 		ButtonType = {
 			name = "single_player_button"
-			position = { x = 63 y = 110 }
-			quadTextureSprite ="GFX_singleplayerbutton"			
+			position = { x = 16 y = 18 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			font = "hoi_24header"			
+			text = "FE_SINGLE_PLAYER"				
 			clicksound = click_default			
 			oversound = ui_menu_over
 		}
 		
 		ButtonType = {
 			name = "multi_player_button"
-			position = { x = 70 y = 170}
-			quadTextureSprite ="GFX_multiplayerbutton"
+			position = { x = 16 y = 58}
+			quadTextureSprite ="GFX_main_lobby_button"
+			font = "hoi_24header"			
+			text = "FE_MULTI_PLAYER"			
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -202,7 +213,7 @@ guiTypes = {
 		instantTextBoxType = {
 
 			name ="version_label"
-			position = { x = -30 y = 470 }
+			position = { x = 35 y = 356 }
 			textureFile = ""
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
@@ -215,8 +226,10 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 70 y = 230 }
-			quadTextureSprite ="GFX_optionsbutton"	
+			position = { x = 16 y = 98 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "OPTIONS"
+			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -224,23 +237,29 @@ guiTypes = {
 
 		ButtonType = {
 			name = "credits_button"
-			position = {  x = 80 y = 290 }
-			quadTextureSprite ="GFX_creditsbutton"	
+			position = {  x = 16 y = 138 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "FE_CREDITS"
+			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 275 y = 34 }
-			quadTextureSprite ="GFX_nudgebutton"	
+			position = { x = 16 y = 178 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "Nudge!"
+			buttonFont = "hoi_24header"
 		}
 		
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 90 y = 395 }
-			quadTextureSprite ="GFX_exitbutton"	
+			position = { x = 16 y = 260 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			font = "hoi_24header"			
+			text = "FE_EXIT"			
 			clicksound = click_default
 			oversound = ui_menu_over
 			
@@ -249,7 +268,7 @@ guiTypes = {
 		## facebook etc.
 		ButtonType = {
 			name = "homepage_button"
-			position = { x = 59 y = -5000 }
+			position = { x = 59 y = 309 }
 			quadTextureSprite ="homepage"
 			clicksound = click_default
 			pdx_tooltip = "MENU_HOMEPAGE"
@@ -257,7 +276,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "forum_button"
-			position = { x = 99 y = -5000 }
+			position = { x = 99 y = 309 }
 			quadTextureSprite ="forum"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FORUM"
@@ -265,7 +284,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "facebook_button"
-			position = { x = 139 y = -5000 }
+			position = { x = 139 y = 309 }
 			quadTextureSprite ="facebook"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FACEBOOK"
@@ -274,7 +293,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "twitter_button"
-			position = { x = 179 y = -5000 }
+			position = { x = 179 y = 309 }
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
@@ -283,7 +302,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "privacy_policy_button"
-			position = { x = 219 y = -5000 }
+			position = { x = 219 y = 309 }
 			quadTextureSprite ="privacy"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_PRIVACY_POLICY"
