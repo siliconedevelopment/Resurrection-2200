@@ -5,7 +5,7 @@ state={
 		3395
 	}
 	history={
-		owner = GER
+		owner = UNC
 		add_core_of = GER
 		add_core_of = PRS
 		add_core_of = HKA
