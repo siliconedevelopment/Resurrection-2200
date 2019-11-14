@@ -2,11 +2,11 @@ state={
 	id=5390
 	name="STATE_5390"
 	provinces={
-		6446 
+		6446 6560
 	}
 	history = {
-		owner = BEL
-		add_core_of = BEL
+		owner = BAE
+		add_core_of = BAE
 		add_core_of = FLA
 	}
 	manpower = 1000

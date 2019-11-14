@@ -6,10 +6,10 @@ state={
 	}
 	history=
 	{
-		owner = SWE
-		add_core_of = SWE
+		owner = IPC
+		add_core_of = IPC
 		buildings = {
-			infrastructure = 6
+			infrastructure = 2
 		}
 	}
 	manpower=1000

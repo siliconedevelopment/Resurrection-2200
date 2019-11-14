@@ -3,14 +3,14 @@ state={
 	name="STATE_2092"
 
 	history={
-		owner = BEL
+		owner = BAE
 		victory_points = {
 			6598 30 
 		}
 		buildings = {
-			infrastructure = 9
+			infrastructure = 3
 		}
-		add_core_of = BEL
+		add_core_of = BAE
 		add_core_of = FLA
 		add_core_of = ANT
 

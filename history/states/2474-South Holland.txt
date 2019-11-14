@@ -5,11 +5,11 @@ state={
 		3211
 	}
 	history={
-		owner = HOL
-		add_core_of = HOL
+		owner = BAE
+		add_core_of = BAE
 		add_core_of = SHO
 		buildings = {
-			infrastructure = 8
+			infrastructure = 4
 
 		}
 

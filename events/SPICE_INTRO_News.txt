@@ -1,0 +1,43 @@
+﻿
+
+add_namespace =  static_OBAMA_news
+
+
+
+news_event = {
+	id = static_OBAMA_news.1
+	title = static_OBAMA_news.1.t  
+	desc = static_OBAMA_news.1.d
+	picture = GFX_CWA_Startup
+	immediate = { log = "[GetDateText]: [Root.GetName]: static_OBAMA_news.1" }
+	
+	#major = yes	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = SPICE_INTRO_intro_read
+	}
+	
+option = {        ##I UNDERSTAND
+        name = static_OBAMA_news.1.a
+		
+		every_country = {
+			limit = {
+				is_major = no
+			}
+
+			add_research_slot = 1
+		}
+
+		every_country = {
+			limit = {
+				is_major = yes
+			}
+
+			add_research_slot = 2
+		}
+    }
+	
+	
+
+}

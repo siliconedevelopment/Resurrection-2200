@@ -4,9 +4,9 @@ state={
 	name="STATE_127"
 
 	history={
-		owner = ENG
+		owner = NBR
 		buildings = {
-			infrastructure = 8
+			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
 			dockyard = 2
@@ -15,7 +15,7 @@ state={
 			air_base = 10
 
 		}
-		add_core_of = ENG
+		add_core_of = NBR
 		add_core_of = EGL
 		
 

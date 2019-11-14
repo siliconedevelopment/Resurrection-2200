@@ -5,8 +5,8 @@ state={
 		9363
 	}
 	history={
-		owner = HOL
-		add_core_of = HOL
+		owner = FRS
+		add_core_of = FRS
 		add_core_of = GEL
 		buildings = {
 			infrastructure = 1

@@ -5,7 +5,7 @@ state={
 		391
 	}
 	history={
-		owner = HOL
+		owner = UNC
 		add_core_of = HOL
 		add_core_of = UTR
 		buildings = {

@@ -8,7 +8,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = BEL
+		owner = UNC
 		add_core_of = BEL
 		add_core_of = FLA
 		add_core_of = WLL

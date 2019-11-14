@@ -1,0 +1,39 @@
+﻿##This event file is for the setup and settings events##
+##Use scripted_effects and scripted_triggers in the future!##
+
+add_namespace = static_OBAMA_config
+add_namespace = dw_flags
+add_namespace = static_OBAMA_config_mod
+
+
+
+####################################
+####    SETTINGS EVENT CHAIN    ####
+####################################
+
+
+
+
+
+
+
+
+
+
+
+
+#####################################
+####    OVERHAUL MODS SETTINGS   ####
+#####################################
+
+
+
+
+
+
+
+
+
+
+
+

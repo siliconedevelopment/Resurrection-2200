@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = NBR
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2
@@ -15,7 +15,7 @@ state={
 			air_base = 5
 
 		}
-		add_core_of = ENG
+		add_core_of = NBR
 		add_core_of = EGL
 		
 

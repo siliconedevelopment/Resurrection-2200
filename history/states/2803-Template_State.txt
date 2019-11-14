@@ -2,10 +2,9 @@ state={
 	id=2803
 	name="STATE_2803"
 	history={
-		set_demilitarized_zone = yes
 		
-		owner = FIN 
-		add_core_of = SWE
+		owner = IPC 
+		add_core_of = IPC
 		add_core_of = FIN
 		add_core_of = ALN
 		buildings = {

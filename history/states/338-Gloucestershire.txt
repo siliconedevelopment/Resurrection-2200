@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = NBR
 		victory_points = {
 			3369 5 
 		}
@@ -22,7 +22,7 @@ state={
 			}
 
 		}
-		add_core_of = ENG
+		add_core_of = NBR
 		add_core_of = EGL
 
 	}

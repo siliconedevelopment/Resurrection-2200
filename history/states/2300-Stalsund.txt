@@ -4,12 +4,12 @@ state={
 	name="STATE_2300"
 
 	history={
-		owner = UNC
+		owner = IPC
 		buildings = {
 			infrastructure = 6
 
 		}
-		add_core_of = GER
+		add_core_of = IPC
 		add_core_of = PRS
 		add_core_of = POM
 		

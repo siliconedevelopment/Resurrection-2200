@@ -4,7 +4,7 @@ state={
 	name="STATE_2359"
 
 	history={
-		owner = DEN
+		owner = IPC
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
@@ -13,7 +13,7 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = DEN
+		add_core_of = IPC
 
 	}
 

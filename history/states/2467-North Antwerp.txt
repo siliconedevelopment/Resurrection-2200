@@ -5,11 +5,11 @@ state={
 		11419
 	}
 	history={
-		owner = BEL
+		owner = BAE
 		buildings = {
 			infrastructure = 9
 		}
-		add_core_of = BEL
+		add_core_of = BAE
 		add_core_of = FLA
 		add_core_of = ANT
 
