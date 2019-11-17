@@ -5,9 +5,9 @@ state={
 		11218 
 	}
 	history={
-		owner = ENG
+		owner = SCO
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 
 		}
 		add_core_of = ENG

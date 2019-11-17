@@ -3,7 +3,7 @@ state={
 	name="STATE_934"
 
 	history={
-		owner = ENG
+		owner = UNC
 		buildings = {
 			infrastructure = 4
 			6196 = {

@@ -18,3 +18,4 @@ SOR = "countries/Sorbs.txt"
 BAE = "countries/Batavia.txt"
 NBR = "countries/New Britain.txt"
 NBD = "countries/British Republic.txt"
+SCO = "countries/Scotland
