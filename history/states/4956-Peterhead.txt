@@ -5,12 +5,11 @@ state={
 		200 11207 
 	}
 	history={
-		owner = ENG
+		owner = SCO
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = ENG
 		add_core_of = SCO
 
 	}

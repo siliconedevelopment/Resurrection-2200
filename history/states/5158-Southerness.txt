@@ -9,11 +9,10 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = ENG
-		add_core_of = ENG
+		owner = SCO
 		add_core_of = SCO
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 		}
 	}
 	buildings_max_level_factor=1.000

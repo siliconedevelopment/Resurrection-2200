@@ -98,3 +98,7 @@
  NBD_democratic:0 "British Republic"
  NBD_neutrality:0 "British Empire"
  NBD_communism:0 "British Commune"
+ SCO_fascism:0 "Scotish State"
+ SCO_democratic:0 "Scotish Republic"
+ SCO_neutrality:0 "Scotland"
+ SCO_communism:0 "Scotish Commune"
