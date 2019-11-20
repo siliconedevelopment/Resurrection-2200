@@ -5,13 +5,13 @@ state={
 		11253 
 	}
 	history={
-		owner = ENG
+		owner = UNC
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = ENG
-		add_core_of = EGL
+		add_core_of = NBR
+		add_core_of = NBD
 
 	}
 	manpower=1030

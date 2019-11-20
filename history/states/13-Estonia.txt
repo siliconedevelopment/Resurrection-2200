@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = UNC
+		owner = IPC
 		victory_points = {
 			3152 5 
 		}
@@ -23,6 +23,7 @@ state={
 			}
 
 		}
+		add_core_of = IPC
 		add_core_of = EST
 		add_core_of = LIV
 
@@ -31,7 +32,7 @@ state={
 	provinces={
 		3152
 	}
-	manpower=109386
+	manpower=17323
 	buildings_max_level_factor=1.000
 	state_category=town
 }

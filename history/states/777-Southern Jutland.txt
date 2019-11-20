@@ -3,21 +3,18 @@ state={
 	name="STATE_777"
 
 	history={
-		owner = DEN
+		owner = UNC
 		buildings = {
 			infrastructure = 7
 
 		}
-		add_core_of = DEN
-		add_core_of = SCH
-		add_core_of = PRS
 
 	}
 
 	provinces={
 		332 11251 
 	}
-	manpower=130125
+	manpower=27183
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

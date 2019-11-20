@@ -8,11 +8,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = BEL
-		add_core_of = BEL
-		add_core_of = FLA
-		add_core_of = ANT
-		add_claim_by = ZEE
+		owner = BAE
+		add_core_of = BAE
 		buildings = {
 			infrastructure = 5
 		}

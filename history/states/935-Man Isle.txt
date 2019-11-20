@@ -3,7 +3,7 @@ state={
 	name="STATE_935"
 
 	history={
-		owner = NBD
+		owner = SCO
 		buildings = {
 			infrastructure = 2
 			3311 = {
@@ -12,7 +12,9 @@ state={
 			}
 
 		}
+		add_core_of = NBR
 		add_core_of = NBD
+		add_core_of = SCO
 		add_core_of = MNX
 
 	}

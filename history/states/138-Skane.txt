@@ -4,7 +4,7 @@ state={
 	name="STATE_138"
 
 	history={
-		owner = SWE
+		owner = IPC
 		victory_points = {
 			11215 1 
 		}
@@ -19,15 +19,14 @@ state={
 			}
 
 		}
-		add_core_of = SWE
-		add_core_of = SCN
+		add_core_of = IPC
 
 	}
 
 	provinces={
 		11160 11215 11327 
 	}
-	manpower=184269
+	manpower=72819
 	buildings_max_level_factor=1.000
 	state_category=town
 }

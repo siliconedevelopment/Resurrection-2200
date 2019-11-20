@@ -2,20 +2,20 @@ state=
 {
 	id=337
 	name="STATE_337"
-	manpower = 25900
+	manpower = 42911
 	
 	state_category = enclave
 	
 	history=
 	{
-		owner = DEN
+		owner = UNC
 		buildings = {
 			infrastructure = 4
 			13003 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = DEN
+		add_claim_by = SCO
 		add_core_of = FAR
 	}
 	provinces= { 13003 }

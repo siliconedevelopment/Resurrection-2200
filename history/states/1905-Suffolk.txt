@@ -5,12 +5,13 @@ state={
 	state_category=city
 	
 	history={
-		owner = ENG
+		owner = UNC
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = ENG
-		add_core_of = EGL
+		add_core_of = UNC
+		add_core_of = NBR
+		add_core_of = NBD
 
 	}
 

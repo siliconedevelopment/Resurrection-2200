@@ -3,19 +3,19 @@ state={
 	name="STATE_2126"
 
 	history={
-		owner = FIN
+		owner = IPC
 		buildings = {
 			infrastructure = 6
 
 		}
 		add_core_of = FIN
-
+		add_core_of = IPC
 	}
 
 	provinces={
 		6108 9194 11211 
 	}
-	manpower=45004
+	manpower=28710
 	buildings_max_level_factor=1.000
 	state_category=city
 }

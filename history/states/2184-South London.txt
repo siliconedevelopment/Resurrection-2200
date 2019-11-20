@@ -5,19 +5,18 @@ state={
 	state_category=megalopolis
 
 	history={
-		owner = ENG
+		owner = UNC
 		buildings = {
 			infrastructure = 9
 
 		}
-		add_core_of = ENG
-		add_core_of = EGL
-
+		add_core_of = NBR
+		add_core_of = NBD
 	}
 
 	provinces={
 		13465 
 	}
-	manpower=2750000
+	manpower=6730
 	buildings_max_level_factor=1.000
 }

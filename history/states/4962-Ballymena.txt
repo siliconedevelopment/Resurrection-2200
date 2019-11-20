@@ -5,14 +5,14 @@ state={
 		3329 
 	}
 	history={
-		owner = ENG
+		owner = SCO
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = ENG
-		add_core_of = NIR
-		add_core_of = IRE
+		add_core_of = NBR
+		add_core_of = NBD
+		add_core_of = SCO
 
 	}
 	manpower=1030

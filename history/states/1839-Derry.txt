@@ -4,14 +4,14 @@ state={
 	name="STATE_1839"
 
 	history={
-		owner = ENG
+		owner = SCO
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		add_core_of = ENG
-		add_core_of = IRE
-		add_core_of = NIR
+		add_core_of = NBR
+		add_core_of = NBD
+		add_core_of = SCO
 	}
 
 	provinces={
