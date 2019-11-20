@@ -1,0 +1,1538 @@
+technologies = {
+	
+	early_fighter = { on_research_complete = { if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: early_fighter" } }
+
+		enable_equipments = {
+			fighter_equipment_0
+		}
+	
+		path = {
+			leads_to_tech = fighter1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = CAS1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = naval_bomber1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1933
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		sub_technologies = {
+			cv_early_fighter
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#WEIGHT
+			modifier = { 
+				factor = 150 
+				num_of_military_factories > 25 
+			}
+		}
+	}
+	
+	cv_early_fighter = { on_research_complete = { if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: cv_early_fighter" } }
+
+		enable_equipments = {
+			cv_fighter_equipment_0
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1933
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 0
+		}
+	}
+	
+	fighter1 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: fighter1" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_FTR = yes }
+			}
+		}
+
+		enable_equipments = {
+			fighter_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = fighter2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		sub_technologies = {
+			cv_fighter1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 10
+
+			#WEIGHT
+			modifier = { factor = 10 date > 1936.6.1 }
+			modifier = { factor = 15 OR = { is_major = yes num_of_military_factories > 25 date > 1940.1.1 } }
+			
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_FTR_tech_focus = yes } }
+		}
+	}
+	
+	cv_fighter1 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: cv_fighter1" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_CVFTR = yes }
+			}
+		}
+
+		enable_equipments = {
+			cv_fighter_equipment_1
+		}
+	
+		research_cost = 1 #Carrier Variant
+		start_year = 1936
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+			
+			#WEIGHT
+			modifier = { factor = 10 EAI_CV_tech_focus = yes }
+			modifier = { factor = 4 num_of_military_factories > 25 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { has_tech = basic_carrier has_tech = basic_ship_hull_carrier } }
+			
+			modifier = { factor = 0 has_tech = fighter2 }
+			
+			modifier = { factor = 0 original_tag = JAP } #jap gets a free cvftr2
+		}
+	}
+	
+	fighter2 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: fighter2" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_FTR = yes }
+			}
+		}
+
+		enable_equipments = {
+			fighter_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = fighter3
+			research_cost_coeff = 1
+		}
+				
+
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 6 }
+		}
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 6 y = 8 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		sub_technologies = {
+			cv_fighter2
+		}
+		
+		ai_will_do = { #EAI
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1939.1.1 NOT = { EAI_fighter_tech_bonus = yes } }
+			modifier = { factor = 0 date < 1938.1.1 EAI_fighter_tech_bonus = yes }
+			
+			#WEIGHT
+			modifier = { factor = 30 OR = { is_major = yes num_of_military_factories > 25 date > 1940.1.1 } }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_FTR_tech_focus = yes } }
+		}
+	}
+	
+	cv_fighter2 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: cv_fighter2" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_CVFTR = yes }
+			}
+		}
+
+		enable_equipments = {
+			cv_fighter_equipment_2
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1940
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+			
+			#DATE
+			modifier = { factor = 0 date < 1940.1.1 }
+			
+			#WEIGHT
+			modifier = { factor = 10 EAI_CV_tech_focus = yes }
+			modifier = { factor = 4 num_of_military_factories > 25 }
+			modifier = { factor = 4 has_navy_size = { size > 6 unit = carrier } }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { has_tech = basic_carrier has_tech = basic_ship_hull_carrier } }
+
+			modifier = { factor = 0 has_tech = fighter3 date < 1943.6.1 }
+			
+			modifier = { factor = 0 original_tag = JAP } #jap gets a free cvftr2
+		}
+	}
+	
+	fighter3 = {
+
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: fighter3" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_FTR = yes }
+			}
+		}
+	
+		enable_equipments = {
+			fighter_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = jet_fighter1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1944
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		sub_technologies = {
+			cv_fighter3
+		}
+		
+		ai_will_do = { #EAI
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1943.6.1 NOT = { EAI_fighter_tech_bonus = yes } }
+			modifier = { factor = 0 date < 1942.1.1 EAI_fighter_tech_bonus = yes }
+			
+			#WEIGHT
+			modifier = { factor = 30 OR = { is_major = yes num_of_military_factories > 25 date > 1940.1.1 } }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_FTR_tech_focus = yes } }
+		}
+	}
+	
+	cv_fighter3 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: cv_fighter3" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_CVFTR = yes }
+			}
+		}
+
+		enable_equipments = {
+			cv_fighter_equipment_3
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1944
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+			
+			#DATE
+			modifier = { factor = 0 date < 1944.1.1 }
+			
+			#WEIGHT
+			modifier = { factor = 10 EAI_CV_tech_focus = yes }
+			modifier = { factor = 4 num_of_military_factories > 25 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { has_tech = basic_carrier has_tech = basic_ship_hull_carrier } }
+		}
+	}
+	
+	jet_fighter1 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: jet_fighter1" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_JFTR = yes }
+			}
+		}
+
+		enable_equipments = {
+				jet_fighter_equipment_1
+		}
+			
+		path = {
+			leads_to_tech = jet_fighter2
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			jet_engines = 1
+		}
+		
+		research_cost = 2
+		start_year = 1945
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		categories = {
+			light_air
+			jet_technology
+			air_equipment
+		}
+
+		ai_will_do = { #EAI
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1945.1.1 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_FTR_tech_focus = yes } }
+		}
+	}
+	
+	jet_fighter2 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: jet_fighter2" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_JFTR = yes }
+			}
+		}
+
+		enable_equipments = {
+			jet_fighter_equipment_2
+		}
+		
+		research_cost = 2
+		start_year = 1950
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		categories = {
+			light_air
+			jet_technology
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1948.1.1 }
+			
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_FTR_tech_focus = yes } }
+		}
+	}
+	
+	
+	CAS1 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: CAS1" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_CAS = yes }
+			}
+		}
+
+		enable_equipments = {
+			CAS_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = CAS2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 4 }
+		}
+		
+		sub_technologies = {
+			cv_CAS1
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 10
+
+			#WEIGHT
+			modifier = { factor = 10 num_of_military_factories > 25 date > 1937.1.1 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_CAS_tech_focus = yes } }
+			modifier = { factor = 0 EAI_FTR_tech_focus = yes NOT = { has_tech = fighter1 is_researching_technology = fighter1 } }
+		}
+	}
+	
+	cv_CAS1 = {
+
+		enable_equipments = {
+			cv_CAS_equipment_1
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1936
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 0
+		}
+	}
+	
+	CAS2 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: CAS2" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_CAS = yes }
+			}
+		}
+
+		enable_equipments = {
+			CAS_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = CAS3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 6 }
+		}
+		
+		sub_technologies = {
+			cv_CAS2
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1940.1.1 }
+
+			#WEIGHT
+			modifier = { factor = 10 num_of_military_factories > 25 }
+			modifier = { factor = 2 date > 1941.1.1 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_CAS_tech_focus = yes } }
+			modifier = { factor = 0 EAI_FTR_tech_focus = yes NOT = { has_tech = fighter1 is_researching_technology = fighter1 } }
+		}
+	}
+	
+	cv_CAS2 = {
+
+		enable_equipments = {
+			cv_CAS_equipment_2
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1940
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 0
+		}
+	}
+	
+	CAS3 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: CAS3" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_CAS = yes }
+			}
+		}
+
+		enable_equipments = {
+			CAS_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = jet_fighter1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 8 }
+		}
+		
+		sub_technologies = {
+			cv_CAS3
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1944.1.1 }
+
+			#WEIGHT
+			modifier = { factor = 10 num_of_military_factories > 25 }
+			modifier = { factor = 2 date > 1945.1.1 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_CAS_tech_focus = yes } }
+		}
+	}
+	
+	cv_CAS3 = {
+
+		enable_equipments = {
+			cv_CAS_equipment_3
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1944
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 0
+		}
+	}
+
+	naval_bomber1 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: naval_bomber1" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_NAV = yes }
+			}
+		}
+
+		enable_equipments = {
+			nav_bomber_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = naval_bomber2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		sub_technologies = {
+			cv_naval_bomber1
+		}
+		
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+			
+			#WEIGHT
+			modifier = {
+				factor = 10
+				OR = {
+					EAI_CV_tech_focus = yes 
+					EAI_NAV_tech_focus = yes
+				}
+			}
+			modifier = { factor = 3 num_of_military_factories > 25 }
+
+			#RESTRICTIONS 
+			modifier = { factor = 0 NOT = { has_tech = basic_carrier has_tech = basic_ship_hull_carrier EAI_NAV_tech_focus = yes } }
+			
+			modifier = { factor = 0 EAI_FTR_tech_focus = yes NOT = { has_tech = fighter1 is_researching_technology = fighter1 } }
+		}
+	}
+	
+	cv_naval_bomber1 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: cv_naval_bomber1" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_CVNAV = yes }
+			}
+		}
+
+		enable_equipments = {
+			cv_nav_bomber_equipment_1
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1936
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+			
+			#WEIGHT
+			modifier = { factor = 20 EAI_CV_tech_focus = yes }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { has_tech = basic_carrier has_tech = basic_ship_hull_carrier } }
+
+			modifier = { factor = 0 has_tech = naval_bomber2 is_researching_technology = naval_bomber2 }
+		}
+	}
+	
+	naval_bomber2 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: naval_bomber2" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_NAV = yes }
+			}
+		}
+
+		enable_equipments = {
+			nav_bomber_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = naval_bomber3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		sub_technologies = {
+			cv_naval_bomber2
+		}
+		
+		categories = {
+			naval_air
+			air_equipment
+			naval_bomber
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1940.1.1 }
+			
+			#WEIGHT
+			modifier = {
+				factor = 10
+				OR = {
+					EAI_CV_tech_focus = yes 
+					EAI_NAV_tech_focus = yes
+				}
+			}
+			modifier = { factor = 3 num_of_military_factories > 25 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { has_tech = basic_carrier has_tech = basic_ship_hull_carrier EAI_NAV_tech_focus = yes } }
+			
+			modifier = { factor = 0 EAI_FTR_tech_focus = yes NOT = { has_tech = fighter1 is_researching_technology = fighter1 } }
+		}
+	}
+	
+	cv_naval_bomber2 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: cv_naval_bomber2" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_CVNAV = yes }
+			}
+		}
+
+		enable_equipments = {
+			cv_nav_bomber_equipment_2
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1940
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+			
+			#DATE
+			modifier = { factor = 0 date < 1940.1.1 }
+			
+			#WEIGHT
+			modifier = { factor = 20 EAI_CV_tech_focus = yes }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { has_tech = basic_carrier has_tech = basic_ship_hull_carrier } }
+
+			modifier = { factor = 0 has_tech = naval_bomber3 is_researching_technology = naval_bomber3 }
+		}
+	}
+	
+	naval_bomber3 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: naval_bomber3" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_NAV = yes }
+			}
+		}
+
+		enable_equipments = {
+			nav_bomber_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = jet_fighter1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		sub_technologies = {
+			cv_naval_bomber3
+		}
+		
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1944.1.1 }
+			
+			#WEIGHT
+			modifier = {
+				factor = 10
+				OR = {
+					EAI_CV_tech_focus = yes 
+					EAI_NAV_tech_focus = yes
+				}
+			}
+			modifier = { factor = 3 num_of_military_factories > 25 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { has_tech = basic_carrier has_tech = basic_ship_hull_carrier EAI_NAV_tech_focus = yes } }
+			
+			modifier = { factor = 0 EAI_FTR_tech_focus = yes NOT = { has_tech = fighter2 is_researching_technology = fighter2 } }
+		}
+	}
+	
+	cv_naval_bomber3 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: cv_naval_bomber3" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_CVNAV = yes }
+			}
+		}
+
+		enable_equipments = {
+			cv_nav_bomber_equipment_3
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1944
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+			
+			#DATE
+			modifier = { factor = 0 date < 1944.1.1 }
+			
+			#WEIGHT
+			modifier = { factor = 20 EAI_CV_tech_focus = yes }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { has_tech = basic_carrier has_tech = basic_ship_hull_carrier } }
+		}
+	}
+	
+	early_bomber = { on_research_complete = { if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: early_bomber" } }
+
+		enable_equipments = {
+			tac_bomber_equipment_0
+		}
+	
+		path = {
+			leads_to_tech = heavy_fighter1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tactical_bomber1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1933
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+			
+			#WEIGHT
+			modifier = { factor = 20 num_of_military_factories > 25 date > 1937.1.1 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_HFTR_tech_focus = yes EAI_TAC_tech_focus = yes EAI_STR_tech_focus = yes } date < 1944.1.1 }
+		}
+	}
+	
+	heavy_fighter1 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: heavy_fighter1" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_HFTR = yes }
+			}
+		}
+
+		enable_equipments = {
+			heavy_fighter_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = heavy_fighter2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = air_techs_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		categories = {
+			medium_air
+			air_equipment
+			cat_heavy_fighter
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#WEIGHT
+			modifier = { factor = 10 date > 1937.1.1 }
+			modifier = { factor = 3 num_of_military_factories > 25 }
+			
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_HFTR_tech_focus = yes } }
+		}
+	}
+	
+	heavy_fighter2 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: heavy_fighter2" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_HFTR = yes }
+			}
+		}
+
+		enable_equipments = {
+			heavy_fighter_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = heavy_fighter3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_techs_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		categories = {
+			medium_air
+			air_equipment
+			cat_heavy_fighter
+		}
+		
+		ai_will_do = { #EAI
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1940.1.1 }
+			
+			#WEIGHT
+			modifier = { factor = 3 num_of_military_factories > 25 }
+			
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_HFTR_tech_focus = yes } }
+		}
+	}
+	
+	heavy_fighter3 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: heavy_fighter3" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_HFTR = yes }
+			}
+		}
+
+		enable_equipments = {
+			heavy_fighter_equipment_3
+		}
+		
+		#path = {
+		#	leads_to_tech = jet_fighter1
+		#	research_cost_coeff = 1.2
+		#}
+
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = air_techs_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		categories = {
+			medium_air
+			air_equipment
+			cat_heavy_fighter
+		}
+		
+		ai_will_do = { #EAI
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1944.1.1 }
+			
+			#WEIGHT
+			modifier = { factor = 3 num_of_military_factories > 25 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_HFTR_tech_focus = yes } }
+		}
+	}
+	
+	tactical_bomber1 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: tactical_bomber1" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_TAC = yes }
+			}
+		}
+
+		enable_equipments = {
+			tac_bomber_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = tactical_bomber2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+			
+			#WEIGHT
+			modifier = { factor = 50 EAI_major_country = yes date > 1937.1.1 }
+			modifier = { factor = 2 num_of_military_factories > 25 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_TAC_tech_focus = yes } }
+			modifier = { factor = 0 EAI_FTR_tech_focus = yes NOT = { has_tech = fighter1 is_researching_technology = fighter1 } }
+		}
+	}
+	
+	tactical_bomber2 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: tactical_bomber2" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_TAC = yes }
+			}
+		}
+
+		enable_equipments = {
+			tac_bomber_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = tactical_bomber3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1940.1.1 }
+			
+			#WEIGHT
+			modifier = { factor = 5 EAI_major_country = yes }
+			modifier = { factor = 2 date > 1941.1.1 }
+			modifier = { factor = 10 num_of_military_factories > 25 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_TAC_tech_focus = yes } }
+			modifier = { factor = 0 EAI_FTR_tech_focus = yes NOT = { has_tech = fighter1 is_researching_technology = fighter1 } }
+		}
+	}
+	
+	tactical_bomber3 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: tactical_bomber3" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_TAC = yes }
+			}
+		}
+
+		enable_equipments = {
+			tac_bomber_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = jet_tactical_bomber1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1944.1.1 }
+			
+			#WEIGHT
+			modifier = { factor = 5 EAI_major_country = yes }
+			modifier = { factor = 10 num_of_military_factories > 25 }
+			modifier = { factor = 2 date > 1945.1.1 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_TAC_tech_focus = yes } }
+			modifier = { factor = 0 EAI_FTR_tech_focus = yes NOT = { has_tech = fighter2 is_researching_technology = fighter2 } }
+		}
+	}
+	
+	jet_tactical_bomber1 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: jet_tactical_bomber1" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_JTAC = yes }
+			}
+		}
+
+		enable_equipments = {
+			jet_tac_bomber_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = jet_tactical_bomber2
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			jet_engines = 1
+		}
+
+		research_cost = 2
+		start_year = 1945
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 12 }
+		}
+		
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1945.1.1 }
+			
+			#WEIGHT
+			modifier = { factor = 10 EAI_major_country = yes }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_TAC_tech_focus = yes } }
+		}
+	}
+	
+	jet_tactical_bomber2 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: jet_tactical_bomber2" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_JTAC = yes }
+			}
+		}
+
+		enable_equipments = {
+			jet_tac_bomber_equipment_2
+		}
+		
+		research_cost = 2
+		start_year = 1950
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 14 }
+		}
+		
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1946.1.1 }
+			
+			#WEIGHT
+			modifier = { factor = 10 EAI_major_country = yes }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_TAC_tech_focus = yes } }
+		}
+	}
+	
+	
+	strategic_bomber1 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: strategic_bomber1" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_STRAT = yes }
+			}
+		}
+
+		enable_equipments = {
+			strat_bomber_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = strategic_bomber2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#WEIGHT
+			modifier = { factor = 150 date > 1938.1.1 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_STR_tech_focus = yes } }
+			modifier = { factor = 0 EAI_FTR_tech_focus = yes NOT = { has_tech = fighter1 is_researching_technology = fighter1 } }
+		}
+	}
+	
+	strategic_bomber2 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: strategic_bomber2" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_STRAT = yes }
+			}
+		}
+
+		enable_equipments = {
+			strat_bomber_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = strategic_bomber3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = { #EAI
+			factor = 150
+
+			#DATE
+			modifier = { factor = 0 date < 1939.6.1 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_STR_tech_focus = yes } }
+			modifier = { factor = 0 EAI_FTR_tech_focus = yes NOT = { has_tech = fighter1 is_researching_technology = fighter1 } }
+		}
+	}
+	
+	strategic_bomber3 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: strategic_bomber3" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_STRAT = yes }
+			}
+		}
+
+		enable_equipments = {
+			strat_bomber_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = jet_strategic_bomber1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = { #EAI
+			factor = 150
+
+			#DATE
+			modifier = { factor = 0 date < 1943.6.1 }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_STR_tech_focus = yes } }
+			modifier = { factor = 0 EAI_FTR_tech_focus = yes NOT = { has_tech = fighter2 is_researching_technology = fighter2 } }
+		}
+	}
+	
+	jet_strategic_bomber1 = {
+	
+		on_research_complete = { #EAI
+			if = { limit = { has_country_flag = EAI_research_logging } log = "[GetDate] | AI TECH | [Root.GetName] | AIR: jet_strategic_bomber1" }
+			if = {
+				limit = { is_ai = yes check_variable = { EAI_air_xp > 130 } }
+				hidden_effect = { EAI_variant_upgrade_JSTRAT = yes }
+			}
+		}
+
+		enable_equipments = {
+			jet_strat_bomber_equipment_1
+		}
+		
+		research_cost = 2
+		start_year = 1950
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1946.1.1 }
+
+			#WEIGHT
+			modifier = { factor = 50 EAI_STR_tech_focus = yes }
+
+			#RESTRICTIONS
+			modifier = { factor = 0 NOT = { EAI_STR_tech_focus = yes } date < 1944.1.1 }
+		}
+	}
+
+	suicide_craft = {
+
+		enable_equipments = {
+			rocket_suicide_equipment_1
+		}
+				
+		research_cost = 1.5 #Carrier Variant
+		start_year = 1944
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		#folder = {
+		#	name = air_techs_folder
+		#	position = { x = -2 y = 8 }
+		#}
+		
+		ai_will_do = { #EAI
+			factor = 0
+		}
+		################
+	}
+}
