@@ -5,12 +5,12 @@ state={
 		9321 
 	}
 	history={
-		owner = IRE
+		owner = IRN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 
 		}
-		add_core_of = IRE
+		add_core_of = IRN
 		add_core_of = CNG
 
 	}

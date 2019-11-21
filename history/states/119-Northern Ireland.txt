@@ -4,14 +4,14 @@ state={
 	name="STATE_119"
 
 	history={
-		owner = ENG
+		owner = IRA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 			air_base = 1
 		}
 		add_core_of = ENG
-		add_core_of = IRE
+		add_core_of = IRA
 		add_core_of = NIR
 	}
 

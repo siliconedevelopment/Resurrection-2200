@@ -5,7 +5,7 @@ state={
 	manpower = 1
 	state_category = city
 	history={
-		owner = IRE
+		owner = IRA
 		victory_points = {
 			11293 5 
 		}
@@ -16,7 +16,7 @@ state={
 				naval_base = 6
 			}
 		}
-		add_core_of = IRE
+		add_core_of = IRA
 		add_core_of = LEI
 	}
 
