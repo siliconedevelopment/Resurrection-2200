@@ -5,20 +5,19 @@ state={
 	state_category=town
 	
 	history={
-		owner = FRA
+		owner = NPR
 		victory_points = {
 			6449 15 
 		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 2
 			6449 = {
 				naval_base = 5
 				coastal_bunker = 1
 
 			}
 		}
-		add_core_of = FRA
-		add_core_of = NND
+		add_core_of = NPR
 
 	}
 	

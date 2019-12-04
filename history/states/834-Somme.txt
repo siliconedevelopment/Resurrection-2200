@@ -8,15 +8,14 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = NPR
 		victory_points = { 9561 1 }
 		buildings = {
-			infrastructure = 8
+			infrastructure = 3
 			industrial_complex = 1
 
 		}
-		add_core_of = FRA
-		add_core_of = PIC
+		add_core_of = NPR
 
 	}
 

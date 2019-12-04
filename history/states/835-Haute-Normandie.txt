@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = NPR
 		victory_points = {
 			9434 5 
 		}
@@ -16,15 +16,14 @@ state={
 			11563 5 
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 2
 			485 = {
 				naval_base = 1
 
 			}
 
 		}
-		add_core_of = FRA
-		add_core_of = NND
+		add_core_of = NPR
 
 	}
 

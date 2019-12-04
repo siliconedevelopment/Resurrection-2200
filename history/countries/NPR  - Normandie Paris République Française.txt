@@ -1,4 +1,4 @@
-Capital = 1222
+Capital = 5365
 
 set_research_slots = 1
 
@@ -39,26 +39,27 @@ set_technology = {
 
 	set_popularities = {
 		democratic 
-			 = 43
+			 = 37
 		communism
-			 = 19
+			 = 10
 		neutrality
-			 = 31
-		fascism = 7	
+			 = 33
+		fascism
+			 = 20			
 	}
 	
-set_politics = { 
-    ruling_party = democratic
+	set_politics = { 
+	ruling_party = democratic
 	last_election = "1933.7.1"
-	election_frequency = 48
-	elections_allowed = no
+	election_frequency = 84
+	elections_allowed = yes
 }
 
 
 create_country_leader = {
-	name = "Azha Erziehung"
+	name = "Augeste ven Sakseny"
 	desc = ""
-	picture = "Portrait_thot.dds"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {

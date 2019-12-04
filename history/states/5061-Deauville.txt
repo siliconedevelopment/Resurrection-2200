@@ -5,13 +5,12 @@ state={
 		6599 
 	}
 	history={
-		owner = FRA
+		owner = NPR
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = FRA
-		add_core_of = NND
+		add_core_of = NPR
 
 	}
 	manpower=1030
