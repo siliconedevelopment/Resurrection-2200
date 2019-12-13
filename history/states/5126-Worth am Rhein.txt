@@ -5,14 +5,13 @@ state={
 		3558 
 	}
 	history={
-		owner = GER
+		owner = ALN
 		buildings = {
-			infrastructure = 7
+			infrastructure = 2
 
 		}
-		add_core_of = GER
-		add_core_of = BAV
-		set_demilitarized_zone = yes
+		add_core_of = ALN
+		add_core_of = BAD
 
 	}
 	manpower=1000

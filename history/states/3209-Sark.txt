@@ -2,10 +2,10 @@ state={
 	id=3209
 	name="STATE_3209"
 	history={
-		owner = ENG 
-		add_core_of = GSY
+		owner = NPR
+		add_core_of = NPR
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 			
 		}
 	}

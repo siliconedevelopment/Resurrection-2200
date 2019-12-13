@@ -5,13 +5,11 @@ state={
 		14478 
 	}
 	history={
-		owner = BEL
+		owner = WAL
 		buildings = {
-			infrastructure = 8
+			infrastructure = 1
 		}
-		add_core_of = BEL
-		add_core_of = WLL
-		add_core_of = NMR
+		add_core_of = WAL
 
 	}
 	state_category = pastoral

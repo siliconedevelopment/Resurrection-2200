@@ -8,11 +8,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = UNC
-		add_core_of = BEL
-		add_core_of = FLA
-		add_core_of = WLL
-		add_core_of = BRB
+		owner = WAL
+		add_core_of = WAL
 		buildings = {
 			infrastructure = 5
 		}

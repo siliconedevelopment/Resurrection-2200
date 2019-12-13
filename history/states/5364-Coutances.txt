@@ -9,9 +9,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = FRA
-		add_core_of = FRA
-		add_core_of = NND
+		owner = BEN
+		add_core_of = BEN
 		buildings = {
 			infrastructure = 1
 		}

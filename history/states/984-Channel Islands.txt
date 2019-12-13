@@ -3,10 +3,10 @@ state={
 	name="STATE_984"
 
 	history={
-		owner = ENG
-		add_core_of = GSY
+		owner = NPR
+		add_core_of = NPR
 		buildings = {
-			infrastructure = 4
+			infrastructure = 0
 			13287 = {
 				naval_base = 1
 

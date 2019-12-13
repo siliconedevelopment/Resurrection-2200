@@ -4,20 +4,18 @@ state={
 	name="STATE_16"
 
 	history={
-		owner = UNC
+		owner = PAR
 		victory_points = {
 			11506 50 
 		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 3
 			arms_factory = 3
-			industrial_complex = 4
-			anti_air_building = 3
-			air_base = 5
+			industrial_complex = 1
+			air_base = 1
 
 		}
-		add_core_of = FRA
-		add_core_of = PAS
+		add_core_of = PAR
 		
 
 	}

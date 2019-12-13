@@ -7,14 +7,15 @@ state={
 	}
 
 	history={
-		owner = UNC
+		owner = BAE
+		add_core_of = BAE
 		victory_points = {
 			516 30 
 		}
 		buildings = {
-			infrastructure = 9
+			infrastructure = 2
 			arms_factory = 4
-			industrial_complex = 6
+			industrial_complex = 2
 			air_base = 3
 
 		}
