@@ -5,14 +5,12 @@ state={
 		9560 
 	}
 	history={
-		owner = GER
+		owner = MGB
 		buildings = {
-			infrastructure = 6
+			infrastructure = 2
 
 		}
-		add_core_of = GER
-		add_core_of = PRS
-		add_core_of = SMA
+		add_core_of = MGB
 		
 
 	}

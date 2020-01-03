@@ -13,16 +13,16 @@ state={
 			9665 3 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 			industrial_complex = 1
 
 		}
-		add_core_of = AUS
-		add_core_of = UAS
+		add_core_of = BAV
+		add_core_of = BAV
 		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
+			owner = BAV
+			controller = BAV
+			add_core_of = BAV
 
 		}
 

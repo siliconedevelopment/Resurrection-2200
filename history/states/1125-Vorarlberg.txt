@@ -10,14 +10,13 @@ state={
 	history={
 		owner = BAV
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2s
 		}
-		add_core_of = AUS
-		add_core_of = VOR 
+		add_core_of = BAV
 		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
+			owner = BAV
+			controller = BAV
+			add_core_of = BAV
 
 		}
 

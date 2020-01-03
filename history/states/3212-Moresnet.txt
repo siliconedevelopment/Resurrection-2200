@@ -2,15 +2,10 @@ state={
 	id=3212
 	name="STATE_3212"
 	history={
-		owner = BEL 
-		add_core_of = BEL
-		add_core_of = WLL
-		add_core_of = PRS
-		add_core_of = HOL
-		add_core_of = MRN
-		add_core_of = LEG
+		owner = BAE
+		add_core_of = BAE
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			
 		}
 	}

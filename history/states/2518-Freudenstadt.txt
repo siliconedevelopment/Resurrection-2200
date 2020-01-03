@@ -7,12 +7,10 @@ state={
 	history={
 		owner = UNC
 		buildings = {
-			infrastructure = 5
+			infrastructure = 1
 
 		}
-		add_core_of = GER
-		add_core_of = WUR
-		set_demilitarized_zone = yes
+		add_core_of = UNC
 		
 
 	}
